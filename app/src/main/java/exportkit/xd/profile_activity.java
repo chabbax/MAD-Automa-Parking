@@ -1,23 +1,8 @@
 
-	 
-	/*
-	 *	This content is generated from the API File Info.
-	 *	(Alt+Shift+Ctrl+I).
-	 *
-	 *	@desc 		
-	 *	@file 		automa_parking
-	 *	@date 		1629010822992
-	 *	@title 		Page 1
-	 *	@author 	
-	 *	@keywords 	
-	 *	@generator 	Export Kit v1.3.figma
-	 *
-	 */
-	
-
 package exportkit.xd;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 
@@ -27,7 +12,7 @@ import android.widget.ImageView;
 
 public class profile_activity extends Activity {
 
-	
+	// Create button object
 	private View _bg__profile_ek2;
 	private View circle8;
 	private View circle7;
@@ -66,41 +51,19 @@ public class profile_activity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.profile);
 
-		
-		_bg__profile_ek2 = (View) findViewById(R.id._bg__profile_ek2);
-		circle8 = (View) findViewById(R.id.circle8);
-		circle7 = (View) findViewById(R.id.circle7);
-		_5_30_pm_ek6 = (TextView) findViewById(R.id._5_30_pm_ek6);
-		battery4 = (ImageView) findViewById(R.id.battery4);
-		signal4 = (ImageView) findViewById(R.id.signal4);
-		my_profile = (TextView) findViewById(R.id.my_profile);
-		wifi4 = (ImageView) findViewById(R.id.wifi4);
-		profile_background_grey = (View) findViewById(R.id.profile_background_grey);
-		account_details = (TextView) findViewById(R.id.account_details);
-		your_information_is_safe_with_us = (TextView) findViewById(R.id.your_information_is_safe_with_us);
-		profile_name_txt_feild = (View) findViewById(R.id.profile_name_txt_feild);
-		profile_email_txt_feild = (View) findViewById(R.id.profile_email_txt_feild);
-		profile_password_txt_feild = (View) findViewById(R.id.profile_password_txt_feild);
-		profile_phone_txt_feild = (View) findViewById(R.id.profile_phone_txt_feild);
-		edit_btn = (View) findViewById(R.id.edit_btn);
-		save_btn = (View) findViewById(R.id.save_btn);
-		delete_btn = (View) findViewById(R.id.delete_btn);
-		delete_account = (TextView) findViewById(R.id.delete_account);
-		edit_account = (TextView) findViewById(R.id.edit_account);
-		save = (TextView) findViewById(R.id.save);
-		full_name__ = (TextView) findViewById(R.id.full_name__);
-		my_email__ = (TextView) findViewById(R.id.my_email__);
-		password__ = (TextView) findViewById(R.id.password__);
-		phone_number__ = (TextView) findViewById(R.id.phone_number__);
-		_0766973598 = (TextView) findViewById(R.id._0766973598);
-		xxxxxxxxxxxxx = (TextView) findViewById(R.id.xxxxxxxxxxxxx);
-		timmy_gmail_com = (TextView) findViewById(R.id.timmy_gmail_com);
-		tom_perera = (TextView) findViewById(R.id.tom_perera);
-		profile_pic = (ImageView) findViewById(R.id.profile_pic);
-		profile_img_ek1 = (ImageView) findViewById(R.id.profile_img_ek1);
-	
-		
-		//custom code goes here
+		// Link java button with xml button
+		save_btn = findViewById(R.id.save_btn);
+
+		// Set listener to the button
+		save_btn.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				// Create intent
+				Intent i = new Intent(getApplicationContext(),selection_activity.class);
+				// Launch next activity
+				startActivity(i);
+			}
+		});
 	
 	}
 }

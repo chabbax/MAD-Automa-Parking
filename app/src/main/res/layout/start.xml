@@ -131,12 +131,13 @@
 					android:textColor="@color/_5_30_pm_color"
 					android:textSize="16sp" />
 
-				<View android:id="@+id/getstarted_btn"
-					android:background="@drawable/getstarted_btn_shape"
-					 android:layout_marginStart="48dp"
-					android:layout_marginTop="661dp"
+				<View
+					android:id="@+id/getstarted_btn"
 					android:layout_width="315dp"
-					android:layout_height="51dp" />
+					android:layout_height="51dp"
+					android:layout_marginStart="48dp"
+					android:layout_marginTop="661dp"
+					android:background="@drawable/getstarted_btn_shape" />
 
 				<TextView
 					android:id="@+id/get_started"

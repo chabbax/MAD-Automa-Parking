@@ -142,12 +142,13 @@
 					android:text="@string/do_you_already_have_an_account__sign_up_string"
 					 />
 
-				<View android:id="@+id/login_button"
-					android:background="@drawable/login_button_shape"
-					 android:layout_marginStart="48dp"
-					android:layout_marginTop="663dp"
+				<View
+					android:id="@+id/login_button"
 					android:layout_width="315dp"
-					android:layout_height="51dp" />
+					android:layout_height="51dp"
+					android:layout_marginStart="48dp"
+					android:layout_marginTop="663dp"
+					android:background="@drawable/login_button_shape" />
 
 				<View android:id="@+id/login_email_txt_feild"
 					android:background="@drawable/login_email_txt_feild_shape"

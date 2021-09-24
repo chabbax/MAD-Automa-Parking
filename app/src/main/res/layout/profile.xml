@@ -154,12 +154,13 @@
 					android:layout_width="152dp"
 					android:layout_height="34dp" />
 
-				<View android:id="@+id/save_btn"
-					android:background="@drawable/save_btn_shape"
-					 android:layout_marginStart="261dp"
-					android:layout_marginTop="659dp"
+				<View
+					android:id="@+id/save_btn"
 					android:layout_width="96dp"
-					android:layout_height="33dp" />
+					android:layout_height="33dp"
+					android:layout_marginStart="261dp"
+					android:layout_marginTop="659dp"
+					android:background="@drawable/save_btn_shape" />
 
 				<View android:id="@+id/delete_btn"
 					android:background="@drawable/delete_btn_shape"

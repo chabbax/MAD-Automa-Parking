@@ -25,6 +25,27 @@
 					android:background="@drawable/_bg__contact_us_ek2_shape" />
 
 				<View
+					android:id="@+id/back_btn"
+					android:layout_width="157dp"
+					android:layout_height="44dp"
+					android:layout_marginStart="46dp"
+					android:layout_marginTop="665dp"
+					android:background="@drawable/download_btn_shape" />
+
+				<TextView
+					android:id="@+id/download_bill2"
+					android:layout_width="110dp"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="72dp"
+					android:layout_marginTop="673dp"
+					android:gravity="center"
+					android:text="Back"
+					android:textColor="@color/_bg__records_ek2_color"
+					android:textSize="20sp"
+					android:textStyle="bold" />
+
+				<View
 					android:id="@+id/circle10"
 					android:layout_width="199dp"
 					android:layout_height="199dp"
@@ -100,8 +121,8 @@
 
 				<TextView
 					android:id="@+id/send_mail"
-					android:layout_width="124dp"
-					android:layout_height="44dp"
+					android:layout_width="126dp"
+					android:layout_height="49dp"
 					android:layout_gravity="center_horizontal|center"
 					android:layout_marginLeft="141dp"
 					android:layout_marginTop="600dp"

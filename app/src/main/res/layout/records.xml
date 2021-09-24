@@ -82,13 +82,14 @@
 					android:textColor="#00796B"
 					android:textSize="16sp" />
 
-				<ImageView android:id="@+id/profile_img3"
-					android:src="@drawable/profile_img3"
-					android:contentDescription="profile_img3"
-					 android:layout_marginStart="319dp"
-					android:layout_marginTop="50dp"
+				<ImageView
+					android:id="@+id/profile_img3"
 					android:layout_width="63dp"
-					android:layout_height="63dp" />
+					android:layout_height="63dp"
+					android:layout_marginStart="319dp"
+					android:layout_marginTop="50dp"
+					android:contentDescription="profile_img3"
+					android:src="@drawable/profile_img3" />
 
 				<ImageView android:id="@+id/record_menu_icon"
 					android:src="@drawable/record_menu_icon"
@@ -105,13 +106,14 @@
 					android:layout_width="411dp"
 					android:layout_height="70dp" />
 
-				<ImageView android:id="@+id/record_home_logo"
-					android:src="@drawable/record_home_logo"
-					android:contentDescription="record_home_logo"
-					 android:layout_marginStart="66dp"
-					android:layout_marginTop="777dp"
+				<ImageView
+					android:id="@+id/record_home_logo"
 					android:layout_width="25dp"
-					android:layout_height="19.44dp" />
+					android:layout_height="19.44dp"
+					android:layout_marginStart="66dp"
+					android:layout_marginTop="777dp"
+					android:contentDescription="record_home_logo"
+					android:src="@drawable/record_home_logo" />
 
 				<ImageView
 					android:id="@+id/record_history_logo"
@@ -123,13 +125,14 @@
 					android:src="@drawable/record_history_logo"
 					tools:ignore="ImageContrastCheck" />
 
-				<ImageView android:id="@+id/record_checkout_logo"
-					android:src="@drawable/record_checkout_logo"
-					android:contentDescription="record_checkout_logo"
-					 android:layout_marginStart="238dp"
-					android:layout_marginTop="775dp"
+				<ImageView
+					android:id="@+id/record_checkout_logo"
 					android:layout_width="25dp"
-					android:layout_height="22.22dp" />
+					android:layout_height="22.22dp"
+					android:layout_marginStart="238dp"
+					android:layout_marginTop="775dp"
+					android:contentDescription="record_checkout_logo"
+					android:src="@drawable/record_checkout_logo" />
 
 				<ImageView android:id="@+id/record_profile_logo"
 					android:src="@drawable/record_profile_logo"
@@ -150,12 +153,13 @@
 					android:text="@string/purchase_history_string"
 					 />
 
-				<View android:id="@+id/download_btn"
-					android:background="@drawable/download_btn_shape"
-					 android:layout_marginStart="40dp"
-					android:layout_marginTop="665dp"
+				<View
+					android:id="@+id/download_btn"
 					android:layout_width="173dp"
-					android:layout_height="44dp" />
+					android:layout_height="44dp"
+					android:layout_marginStart="40dp"
+					android:layout_marginTop="665dp"
+					android:background="@drawable/download_btn_shape" />
 
 				<TextView
 					android:id="@+id/download_bill"

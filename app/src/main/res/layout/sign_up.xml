@@ -118,24 +118,25 @@
 					android:text="@string/your_information_is_safe_with_us_ek1_string"
 					 />
 
-				<TextView android:id="@+id/do_you_already_have_an_account__login"
-					android:layout_gravity="center_horizontal|center"
-					android:gravity="center"
-					android:textSize="15sp"
-					android:textColor="@color/_5_30_pm_color"
-					android:layout_marginLeft="45dp"
-					android:layout_marginTop="724dp"
+				<TextView
+					android:id="@+id/do_you_already_have_an_account__login"
 					android:layout_width="322dp"
 					android:layout_height="35.5dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="45dp"
+					android:layout_marginTop="724dp"
+					android:gravity="center"
 					android:text="@string/do_you_already_have_an_account__login_string"
-					 />
+					android:textColor="@color/_5_30_pm_color"
+					android:textSize="15sp" />
 
-				<View android:id="@+id/signup_btn"
-					android:background="@drawable/signup_btn_shape"
-					 android:layout_marginStart="48dp"
-					android:layout_marginTop="663dp"
+				<View
+					android:id="@+id/signup_btn"
 					android:layout_width="315dp"
-					android:layout_height="51dp" />
+					android:layout_height="51dp"
+					android:layout_marginStart="48dp"
+					android:layout_marginTop="663dp"
+					android:background="@drawable/signup_btn_shape" />
 
 				<View android:id="@+id/signin_name_txt_feild"
 					android:background="@drawable/signin_name_txt_feild_shape"

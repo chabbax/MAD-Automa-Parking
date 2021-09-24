@@ -1,23 +1,8 @@
 
-	 
-	/*
-	 *	This content is generated from the API File Info.
-	 *	(Alt+Shift+Ctrl+I).
-	 *
-	 *	@desc 		
-	 *	@file 		automa_parking
-	 *	@date 		1629010822992
-	 *	@title 		Page 1
-	 *	@author 	
-	 *	@keywords 	
-	 *	@generator 	Export Kit v1.3.figma
-	 *
-	 */
-	
-
 package exportkit.xd;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 
@@ -27,7 +12,7 @@ import android.widget.TextView;
 
 public class checkout_activity extends Activity {
 
-	
+	// Create button object
 	private View _bg__checkout_ek2;
 	private View circle16;
 	private View circle15;
@@ -71,46 +56,60 @@ public class checkout_activity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.checkout);
 
-		
-		_bg__checkout_ek2 = (View) findViewById(R.id._bg__checkout_ek2);
-		circle16 = (View) findViewById(R.id.circle16);
-		circle15 = (View) findViewById(R.id.circle15);
-		battery8 = (ImageView) findViewById(R.id.battery8);
-		signal8 = (ImageView) findViewById(R.id.signal8);
-		wifi8 = (ImageView) findViewById(R.id.wifi8);
-		_5_30_pm_ek1 = (TextView) findViewById(R.id._5_30_pm_ek1);
-		hello__dissanayake_ek1 = (TextView) findViewById(R.id.hello__dissanayake_ek1);
-		profile_img2 = (ImageView) findViewById(R.id.profile_img2);
-		checkout_menu_icon = (ImageView) findViewById(R.id.checkout_menu_icon);
-		checkout_navigation_bar = (View) findViewById(R.id.checkout_navigation_bar);
-		checkout_home_logo = (ImageView) findViewById(R.id.checkout_home_logo);
-		checkout_history_logo = (ImageView) findViewById(R.id.checkout_history_logo);
-		checkout_checkout_logo = (ImageView) findViewById(R.id.checkout_checkout_logo);
-		checkout_profile_logo = (ImageView) findViewById(R.id.checkout_profile_logo);
-		checkout_img = (ImageView) findViewById(R.id.checkout_img);
-		checkout_cardno_textfeild = (ImageView) findViewById(R.id.checkout_cardno_textfeild);
-		checkout_name_textfeild = (ImageView) findViewById(R.id.checkout_name_textfeild);
-		checkout_expiry_textfeild = (ImageView) findViewById(R.id.checkout_expiry_textfeild);
-		checkout_cvv_textfeild = (ImageView) findViewById(R.id.checkout_cvv_textfeild);
-		card_number = (TextView) findViewById(R.id.card_number);
-		full_name = (TextView) findViewById(R.id.full_name);
-		expiry_date = (TextView) findViewById(R.id.expiry_date);
-		cvv = (TextView) findViewById(R.id.cvv);
-		mastercard_img = (ImageView) findViewById(R.id.mastercard_img);
-		bill_background = (View) findViewById(R.id.bill_background);
-		quantity_item_price = (TextView) findViewById(R.id.quantity_item_price);
-		_2_latte_rs___1000_1_expresso_rs___1500 = (TextView) findViewById(R.id._2_latte_rs___1000_1_expresso_rs___1500);
-		barcode = (ImageView) findViewById(R.id.barcode);
-		total_amount = (View) findViewById(R.id.total_amount);
-		rs___25000 = (TextView) findViewById(R.id.rs___25000);
-		cancle_btn = (View) findViewById(R.id.cancle_btn);
-		cancel_order = (TextView) findViewById(R.id.cancel_order);
-		total__ = (TextView) findViewById(R.id.total__);
-		paypal_img = (ImageView) findViewById(R.id.paypal_img);
-		visa_img = (ImageView) findViewById(R.id.visa_img);
-	
-		
-		//custom code goes here
+		// Link java button with xml button
+		total_amount = findViewById(R.id.total_amount);
+
+		// Set listener to the button
+		total_amount.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				// Create intent
+				Intent i = new Intent(getApplicationContext(),records_activity.class);
+				// Launch next activity
+				startActivity(i);
+			}
+		});
+
+		cancle_btn = findViewById(R.id.cancle_btn);
+		cancle_btn.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent i = new Intent(getApplicationContext(),welcome_coffee_activity.class);
+				// Launch next activity
+				startActivity(i);
+			}
+		});
+
+		profile_img2 = findViewById(R.id.profile_img2);
+		profile_img2.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent i = new Intent(getApplicationContext(),profile_activity.class);
+				// Launch next activity
+				startActivity(i);
+			}
+		});
+
+		checkout_history_logo = findViewById(R.id.checkout_history_logo);
+		checkout_history_logo.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent i = new Intent(getApplicationContext(),records_activity.class);
+				// Launch next activity
+				startActivity(i);
+			}
+		});
+
+		checkout_profile_logo = findViewById(R.id.checkout_profile_logo);
+		checkout_profile_logo.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent i = new Intent(getApplicationContext(),profile_activity.class);
+				// Launch next activity
+				startActivity(i);
+			}
+		});
+
 	
 	}
 }

@@ -82,13 +82,14 @@
 					android:text="@string/hello__dissanayake_ek1_string"
 					 />
 
-				<ImageView android:id="@+id/profile_img2"
-					android:src="@drawable/profile_img2"
-					android:contentDescription="profile_img2"
-					 android:layout_marginStart="319dp"
-					android:layout_marginTop="50dp"
+				<ImageView
+					android:id="@+id/profile_img2"
 					android:layout_width="63dp"
-					android:layout_height="63dp" />
+					android:layout_height="63dp"
+					android:layout_marginStart="319dp"
+					android:layout_marginTop="50dp"
+					android:contentDescription="profile_img2"
+					android:src="@drawable/profile_img2" />
 
 				<ImageView android:id="@+id/checkout_menu_icon"
 					android:src="@drawable/checkout_menu_icon"
@@ -105,37 +106,41 @@
 					android:layout_width="411dp"
 					android:layout_height="70dp" />
 
-				<ImageView android:id="@+id/checkout_home_logo"
-					android:src="@drawable/checkout_home_logo"
-					android:contentDescription="checkout_home_logo"
-					 android:layout_marginStart="66dp"
+				<ImageView
+					android:id="@+id/checkout_home_logo"
+					android:layout_width="25dp"
+					android:layout_height="19.44dp"
+					android:layout_marginStart="66dp"
 					android:layout_marginTop="777dp"
-					android:layout_width="25dp"
-					android:layout_height="19.44dp" />
+					android:contentDescription="checkout_home_logo"
+					android:src="@drawable/checkout_home_logo" />
 
-				<ImageView android:id="@+id/checkout_history_logo"
-					android:src="@drawable/checkout_history_logo"
+				<ImageView
+					android:id="@+id/checkout_history_logo"
+					android:layout_width="21.88dp"
+					android:layout_height="25dp"
+					android:layout_marginStart="155dp"
+					android:layout_marginTop="775dp"
 					android:contentDescription="checkout_history_logo"
-					 android:layout_marginStart="155dp"
-					android:layout_marginTop="775dp"
-					android:layout_width="21.88dp"
-					android:layout_height="25dp" />
+					android:src="@drawable/checkout_history_logo" />
 
-				<ImageView android:id="@+id/checkout_checkout_logo"
-					android:src="@drawable/checkout_checkout_logo"
-					android:contentDescription="checkout_checkout_logo"
-					 android:layout_marginStart="238dp"
-					android:layout_marginTop="775dp"
+				<ImageView
+					android:id="@+id/checkout_checkout_logo"
 					android:layout_width="25dp"
-					android:layout_height="22.22dp" />
+					android:layout_height="22.22dp"
+					android:layout_marginStart="238dp"
+					android:layout_marginTop="775dp"
+					android:contentDescription="checkout_checkout_logo"
+					android:src="@drawable/checkout_checkout_logo" />
 
-				<ImageView android:id="@+id/checkout_profile_logo"
-					android:src="@drawable/checkout_profile_logo"
-					android:contentDescription="checkout_profile_logo"
-					 android:layout_marginStart="326dp"
-					android:layout_marginTop="774dp"
+				<ImageView
+					android:id="@+id/checkout_profile_logo"
 					android:layout_width="21.88dp"
-					android:layout_height="25dp" />
+					android:layout_height="25dp"
+					android:layout_marginStart="326dp"
+					android:layout_marginTop="774dp"
+					android:contentDescription="checkout_profile_logo"
+					android:src="@drawable/checkout_profile_logo" />
 
 				<ImageView android:id="@+id/checkout_img"
 					android:src="@drawable/checkout_img"
@@ -242,15 +247,15 @@
 					android:text="@string/quantity_item_price_string"
 					 />
 
-				<TextView android:id="@+id/_2_latte_rs___1000_1_expresso_rs___1500"
-					android:textSize="12sp"
-					android:textColor="@color/_5_30_pm_color"
-					android:layout_marginLeft="59dp"
-					android:layout_marginTop="481dp"
+				<TextView
+					android:id="@+id/_2_latte_rs___1000_1_expresso_rs___1500"
 					android:layout_width="301dp"
 					android:layout_height="95dp"
+					android:layout_marginLeft="59dp"
+					android:layout_marginTop="481dp"
 					android:text="@string/_2_latte_rs___1000_1_expresso_rs___1500_string"
-					 />
+					android:textColor="@color/_5_30_pm_color"
+					android:textSize="12sp" />
 
 				<ImageView android:id="@+id/barcode"
 					android:src="@drawable/barcode"
@@ -260,30 +265,32 @@
 					android:layout_width="84dp"
 					android:layout_height="19dp" />
 
-				<View android:id="@+id/total_amount"
-					android:background="@drawable/total_amount_shape"
-					 android:layout_marginStart="257dp"
-					android:layout_marginTop="556dp"
+				<View
+					android:id="@+id/total_amount"
 					android:layout_width="94dp"
-					android:layout_height="28dp" />
+					android:layout_height="28dp"
+					android:layout_marginStart="257dp"
+					android:layout_marginTop="556dp"
+					android:background="@drawable/total_amount_shape" />
 
-				<TextView android:id="@+id/rs___25000"
-					android:textStyle="bold"
-					android:textSize="12sp"
-					android:textColor="@color/_bg__records_ek2_color"
-					android:layout_marginLeft="272dp"
-					android:layout_marginTop="561dp"
+				<TextView
+					android:id="@+id/rs___25000"
 					android:layout_width="87dp"
 					android:layout_height="24dp"
+					android:layout_marginLeft="272dp"
+					android:layout_marginTop="561dp"
 					android:text="@string/rs___25000_string"
-					 />
+					android:textColor="@color/_bg__records_ek2_color"
+					android:textSize="12sp"
+					android:textStyle="bold" />
 
-				<View android:id="@+id/cancle_btn"
-					android:background="@drawable/cancle_btn_shape"
-					 android:layout_marginStart="44dp"
-					android:layout_marginTop="671dp"
+				<View
+					android:id="@+id/cancle_btn"
 					android:layout_width="132dp"
-					android:layout_height="44dp" />
+					android:layout_height="44dp"
+					android:layout_marginStart="44dp"
+					android:layout_marginTop="671dp"
+					android:background="@drawable/cancle_btn_shape" />
 
 				<TextView
 					android:id="@+id/cancel_order"
@@ -298,17 +305,17 @@
 					android:textSize="14sp"
 					android:textStyle="bold" />
 
-				<TextView android:id="@+id/total__"
-					android:layout_gravity="center_horizontal|center"
-					android:gravity="center"
-					android:textSize="12sp"
-					android:textColor="@color/total___color"
-					android:layout_marginLeft="197dp"
-					android:layout_marginTop="561dp"
+				<TextView
+					android:id="@+id/total__"
 					android:layout_width="73dp"
 					android:layout_height="25dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="197dp"
+					android:layout_marginTop="561dp"
+					android:gravity="center"
 					android:text="@string/total___string"
-					 />
+					android:textColor="@color/total___color"
+					android:textSize="12sp" />
 
 				<ImageView android:id="@+id/paypal_img"
 					android:src="@drawable/paypal_img"

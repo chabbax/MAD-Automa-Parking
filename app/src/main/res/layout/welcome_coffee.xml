@@ -90,13 +90,14 @@
 					android:textColor="@color/circle18_color"
 					android:textSize="16sp" />
 
-				<ImageView android:id="@+id/profile_img1"
-					android:src="@drawable/profile_img1"
-					android:contentDescription="profile_img1"
-					 android:layout_marginStart="319dp"
-					android:layout_marginTop="50dp"
+				<ImageView
+					android:id="@+id/profile_img1"
 					android:layout_width="63dp"
-					android:layout_height="63dp" />
+					android:layout_height="63dp"
+					android:layout_marginStart="319dp"
+					android:layout_marginTop="50dp"
+					android:contentDescription="profile_img1"
+					android:src="@drawable/profile_img1" />
 
 				<ImageView android:id="@+id/welcome_menu_icon"
 					android:src="@drawable/welcome_menu_icon"
@@ -404,29 +405,32 @@
 					android:layout_width="25dp"
 					android:layout_height="19.44dp" />
 
-				<ImageView android:id="@+id/welcome_history_logo"
-					android:src="@drawable/welcome_history_logo"
+				<ImageView
+					android:id="@+id/welcome_history_logo"
+					android:layout_width="21.88dp"
+					android:layout_height="25dp"
+					android:layout_marginStart="155dp"
+					android:layout_marginTop="775dp"
 					android:contentDescription="welcome_history_logo"
-					 android:layout_marginStart="155dp"
-					android:layout_marginTop="775dp"
-					android:layout_width="21.88dp"
-					android:layout_height="25dp" />
+					android:src="@drawable/welcome_history_logo" />
 
-				<ImageView android:id="@+id/welcome_checkout_logo"
-					android:src="@drawable/welcome_checkout_logo"
-					android:contentDescription="welcome_checkout_logo"
-					 android:layout_marginStart="238dp"
-					android:layout_marginTop="775dp"
+				<ImageView
+					android:id="@+id/welcome_checkout_logo"
 					android:layout_width="25dp"
-					android:layout_height="22.22dp" />
+					android:layout_height="22.22dp"
+					android:layout_marginStart="238dp"
+					android:layout_marginTop="775dp"
+					android:contentDescription="welcome_checkout_logo"
+					android:src="@drawable/welcome_checkout_logo" />
 
-				<ImageView android:id="@+id/welcome_profile_logo"
-					android:src="@drawable/welcome_profile_logo"
-					android:contentDescription="welcome_profile_logo"
-					 android:layout_marginStart="326dp"
-					android:layout_marginTop="774dp"
+				<ImageView
+					android:id="@+id/welcome_profile_logo"
 					android:layout_width="21.88dp"
-					android:layout_height="25dp" />
+					android:layout_height="25dp"
+					android:layout_marginStart="326dp"
+					android:layout_marginTop="774dp"
+					android:contentDescription="welcome_profile_logo"
+					android:src="@drawable/welcome_profile_logo" />
 
 				<ImageView
 					android:id="@+id/order_img"
@@ -437,12 +441,13 @@
 					android:contentDescription="order_img"
 					android:src="@drawable/order_img" />
 
-				<View android:id="@+id/order_btn"
-					android:background="@drawable/order_btn_shape"
-					 android:layout_marginStart="69dp"
-					android:layout_marginTop="677dp"
+				<View
+					android:id="@+id/order_btn"
 					android:layout_width="132dp"
-					android:layout_height="31dp" />
+					android:layout_height="31dp"
+					android:layout_marginStart="69dp"
+					android:layout_marginTop="677dp"
+					android:background="@drawable/order_btn_shape" />
 
 				<TextView
 					android:id="@+id/order_now"

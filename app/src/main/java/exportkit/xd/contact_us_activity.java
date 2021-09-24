@@ -1,23 +1,8 @@
 
-	 
-	/*
-	 *	This content is generated from the API File Info.
-	 *	(Alt+Shift+Ctrl+I).
-	 *
-	 *	@desc 		
-	 *	@file 		automa_parking
-	 *	@date 		1629010822992
-	 *	@title 		Page 1
-	 *	@author 	
-	 *	@keywords 	
-	 *	@generator 	Export Kit v1.3.figma
-	 *
-	 */
-	
-
 package exportkit.xd;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 
@@ -27,7 +12,8 @@ import android.widget.ImageView;
 
 public class contact_us_activity extends Activity {
 
-	
+	// Create button object
+	private View back_btn;
 	private View _bg__contact_us_ek2;
 	private View circle10;
 	private View circle9;
@@ -55,28 +41,33 @@ public class contact_us_activity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.contact_us);
 
-		
-		_bg__contact_us_ek2 = (View) findViewById(R.id._bg__contact_us_ek2);
-		circle10 = (View) findViewById(R.id.circle10);
-		circle9 = (View) findViewById(R.id.circle9);
-		_5_30_pm_ek5 = (TextView) findViewById(R.id._5_30_pm_ek5);
-		battery5 = (ImageView) findViewById(R.id.battery5);
-		signal5 = (ImageView) findViewById(R.id.signal5);
-		automa_parking_ek1 = (TextView) findViewById(R.id.automa_parking_ek1);
-		wifi5 = (ImageView) findViewById(R.id.wifi5);
-		send_btn = (View) findViewById(R.id.send_btn);
-		send_mail = (TextView) findViewById(R.id.send_mail);
-		contact_background = (View) findViewById(R.id.contact_background);
-		profile_img = (ImageView) findViewById(R.id.profile_img);
-		contact_us_ek3 = (TextView) findViewById(R.id.contact_us_ek3);
-		contact_us_via_your_email_to_our_customer_support = (TextView) findViewById(R.id.contact_us_via_your_email_to_our_customer_support);
-		full_name_ek1 = (TextView) findViewById(R.id.full_name_ek1);
-		email = (TextView) findViewById(R.id.email);
-		message = (TextView) findViewById(R.id.message);
-	
-		
-		//custom code goes here
-	
+		// Link java button with xml button
+		back_btn = findViewById(R.id.back_btn);
+
+		// Set listener to the button
+		back_btn.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				// Create intent
+				Intent i = new Intent(getApplicationContext(),selection_activity.class);
+				// Launch next activity
+				startActivity(i);
+			}
+		});
+
+		// Link java button with xml button
+		send_btn = findViewById(R.id.send_btn);
+
+		// Set listener to the button
+		send_btn.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				// Create intent
+				Intent i = new Intent(getApplicationContext(),selection_activity.class);
+				// Launch next activity
+				startActivity(i);
+			}
+		});
 	}
 }
 	
