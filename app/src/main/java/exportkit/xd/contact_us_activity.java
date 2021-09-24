@@ -70,9 +70,6 @@ public class contact_us_activity extends Activity {
 		profile_img = (ImageView) findViewById(R.id.profile_img);
 		contact_us_ek3 = (TextView) findViewById(R.id.contact_us_ek3);
 		contact_us_via_your_email_to_our_customer_support = (TextView) findViewById(R.id.contact_us_via_your_email_to_our_customer_support);
-		contact_message_txt_feild = (View) findViewById(R.id.contact_message_txt_feild);
-		contact_name_txt_feild = (View) findViewById(R.id.contact_name_txt_feild);
-		contact_email_txt_feild = (View) findViewById(R.id.contact_email_txt_feild);
 		full_name_ek1 = (TextView) findViewById(R.id.full_name_ek1);
 		email = (TextView) findViewById(R.id.email);
 		message = (TextView) findViewById(R.id.message);
