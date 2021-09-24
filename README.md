@@ -51,18 +51,18 @@ git clone github.com/Chabbax/MAD-Automa-Parking.git
 - [ ] Creat a Scripts ReadMe file for Python, php, js type projects
 - [ ] Create a ReadMe file for IOS projects
 
-I would love to have your help in making  **readMe master templates** better.
+**Help us make this project much better**
 
-The project is still very incomplete but under development. If there's an [issue](https://github.com/tamzi/ReadMe-MasterTemplates/issues) you'd like to see addressed sooner rather than later:
+The project is still very incomplete but under development. If there's an [issue](https://github.com/Chabbax/MAD-Automa-Parking/issues) you'd like to see addressed sooner rather than later:
 
-- [Open an issue](https://github.com/tamzi/ReadMe-MasterTemplates/issues),
+- [Open an issue](https://github.com/Chabbax/MAD-Automa-Parkingissues),
 
     or JUST,
 
-- [Fork the project and send a pull request](https://github.com/tamzi/ReadMe-MasterTemplates/pulls).
+- [Fork the project and send a pull request](https://github.com/Chabbax/MAD-Automa-Parkingpulls).
 
 
-Before you contribute though read the contributing guide here: [CONTRIBUTING GUIDE](https://github.com/tamzi/droidconKE2020App/blob/master/contributing.md)
+Before you contribute though read the contributing guide here: [CONTRIBUTING GUIDE](https://github.com/Chabbax/MAD-Automa-Parkingcontributing.md)
 
 
 
