@@ -1,8 +1,8 @@
 <p align="center">
-  <a href="https://github.com/tamzi/ReadMe-MasterTemplates">
+  <a href="https://github.com/Chabbax/MAD-Automa-Parking.git">
     <img src="https://raw.githubusercontent.com/tamzi/ReadMe-MasterTemplates/master/art/readmemastertemplate.jpg" alt="ReadMe Master Templates" width=230 height=150>
   </a>
-  <h2 align="center">ReadMe Master Templates</h2>
+  <h2 align="center">Automa Parking</h2>
 
   <p align="center">
     If you are working on your projects and using github, the README.md file is a useful starter place for you to write good and clear documentations for  your projects. Use this readMe roject to get started with your project's ReadMe.md file.
@@ -14,12 +14,9 @@
 
 ## Table of contents
 - [Description](#description)
-- [Why the MasterTemplates?](#why-the-master-templates)
 - [How to use them](#how-to-use-them)
 - [Roadmap](#roadmap)
-- [Releases](#releases)
 - [Contributors](#contributors)
-- [Licence](#licence)
 
 <hr>
 
@@ -32,27 +29,6 @@ In this project you wil find the following readMes:
  - [Android Project ReadMe template](https://github.com/tamzi/ReadMe-MasterTemplates/tree/master/android)
  - [Web project template](https://github.com/tamzi/ReadMe-MasterTemplates/tree/master/website)
  - A General contibutions guide in each project
-
-<hr>
-
-### Why the Master Templates?
-
-With the use of version control, there is a huge struggle among most people to do a brief of what their project is about.
-Lets face it, most developers are not into typing out prose to explain what they just built. Others dread the whole process of documenting it.
-<br>
-In addition, what to include so that someone else working on their project can benefit from their amazing work can sometimes be a hard task.
-<br>
-This is the foundation behind this project. A sample project that allows you to get started with a well written **ReadMe.md** file.
-
-ReadMe MasterTemplates:
-* Give developers an easy time when writing their project ReadMe.
-
-* Enable more time to be spent coding out their projects.
-
-* Help us have better github projects without one liners.
-
-* Help people who want to use the various projects on github to know more about the project's architecture.
-
 
 <hr>
 
@@ -103,14 +79,6 @@ Before you contribute though read the contributing guide here: [CONTRIBUTING GUI
 
 
 <hr>
-
-### Releases
-- [x] [code of conduct](https://github.com/tamzi/ReadMe-MasterTemplates/blob/master/CodeOfConduct.md)
-- [x] [contribution](https://github.com/tamzi/ReadMe-MasterTemplates/blob/master/contributing.md)
-- [x] [Android ReadMe version](https://github.com/tamzi/ReadMe-MasterTemplates/tree/master/android)
-- [ ] Web version
-- [ ] A brief ReadMe
-- [ ] ReadMe master templates plugins: Brackets, Android Studio, VSCode,IntelliJ
 
 ### Contributors
 
