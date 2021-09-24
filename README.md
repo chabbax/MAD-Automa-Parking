@@ -35,7 +35,6 @@ In this project you wil need:
 
 ### Installation
 
-## Installation
 Clone this repository and import into **Android Studio**
 ```bash
 git clone github.com/Chabbax/MAD-Automa-Parking.git
