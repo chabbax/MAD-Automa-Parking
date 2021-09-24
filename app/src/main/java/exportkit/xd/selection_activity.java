@@ -55,7 +55,7 @@ public class selection_activity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.selection);
 
-		
+		// this is a comment
 		_bg__selection_ek2 = (View) findViewById(R.id._bg__selection_ek2);
 		circle20 = (View) findViewById(R.id.circle20);
 		circle19 = (View) findViewById(R.id.circle19);
