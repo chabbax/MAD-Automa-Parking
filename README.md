@@ -22,13 +22,14 @@
 
 ### Description
 
-Despite the fact that you writing a technical document, it needs to be clear. Describing your project makes it easier for people to contribute to it and alos use it!
+The technologies used in this mobile application is simply java. We have used android studio to build up this application to do simple functions such as create, update,
+delete and retrive while being connected to a database
 
-In this project you wil find the following readMes:
+In this project you wil need:
 
- - [Android Project ReadMe template](https://github.com/tamzi/ReadMe-MasterTemplates/tree/master/android)
- - [Web project template](https://github.com/tamzi/ReadMe-MasterTemplates/tree/master/website)
- - A General contibutions guide in each project
+ - Java installed in PC
+ - Android Studio
+ - Enough disk space to run the emulator
 
 <hr>
 
