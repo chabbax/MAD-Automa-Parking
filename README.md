@@ -33,26 +33,13 @@ In this project you wil need:
 
 <hr>
 
-### How to use them
+### Installation
 
-1. All the files are in markdown format. While it is good to learn markdown. It is always great to have the [Markdown CheatSheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) bookmarked somewhere in your browser.
-If you can learn it, awesome! It will save you time...But it really is not important: **the more you use markdown, the better you get at it O.o**.
-
-2. There are different Markdown templates for each type of project as below: 
-    * [Android](https://github.com/tamzi/ReadMe-MasterTemplates/tree/master/android)- For android focused ReadMe
-    * [Website](https://github.com/tamzi/ReadMe-MasterTemplates/tree/master/website)- For websites with HTML, CSS and JS
-    * IOS ...coming soon - FOr IOS projects
-    * Scripts ....coming soon - For Python, JS type projects
-    * brief ...coming soon - TLo edit, this is a minimal version
-
-3. Copy the respective files depending on the type of project. Paste it and edit the file.
-
-4. As a general rule, provide link to download the app if its published on the playstore /website if it is hosted at the description section above.See image below
-:point_down: :point_down:
-
-![Edit the Website link](https://raw.githubusercontent.com/tamzi/ReadMe-MasterTemplates/master/website/art/web.png)
-
-5. Want to give a suggestion? Feel free: it's open source. you can [raise issues here](https://github.com/tamzi/ReadMe-MasterTemplates/issues):
+## Installation
+Clone this repository and import into **Android Studio**
+```bash
+git clone git@github.com:wolox/<reponame>.git
+```
 
 
 <hr>
