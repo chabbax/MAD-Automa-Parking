@@ -1,11 +1,11 @@
 <p align="center">
   <a href="https://github.com/Chabbax/MAD-Automa-Parking.git">
-    <img src="https://raw.githubusercontent.com/tamzi/ReadMe-MasterTemplates/master/art/readmemastertemplate.jpg" alt="ReadMe Master Templates" width=230 height=150>
+    <img src="https://lh3.googleusercontent.com/ue3hsEGlLpaRvIWcUDJHr3luAQUnY8ws9aizPczlYMQTgriWQPN-Uoy6P-JsAimnQ_kOFw=s170" alt="Automa Parking" width=230 height=150>
   </a>
   <h2 align="center">Automa Parking</h2>
 
   <p align="center">
-    If you are working on your projects and using github, the README.md file is a useful starter place for you to write good and clear documentations for  your projects. Use this readMe roject to get started with your project's ReadMe.md file.
+   The name of our project is called “Automa Parking” which translates to simply an automatic parking system. However, since this kind of system is very common we decided to make that idea into a more renewed, refreshed and upgraded system. This is why we called the name Automa instead of Automatic as we wanted the user to have a futuristic feeling when saying the name.
     <br>
     </p>
 </p>
