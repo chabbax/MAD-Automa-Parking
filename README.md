@@ -14,7 +14,7 @@
 
 ## Table of contents
 - [Description](#description)
-- [How to use them](#how-to-use-them)
+- [Installation](#installation)
 - [Roadmap](#roadmap)
 - [Contributors](#contributors)
 
@@ -46,10 +46,13 @@ git clone github.com/Chabbax/MAD-Automa-Parking.git
 
 ### Roadmap
   🚧 👷‍ ⛏ 👷 🔧️ 🚧
-- [x] Create An Android Projects ReadMe.
-- [x] Create a website ReadMe for Html and css and JS projects.
-- [ ] Creat a Scripts ReadMe file for Python, php, js type projects
-- [ ] Create a ReadMe file for IOS projects
+- [x] Create
+- [x] Update
+- [x] Delete
+- [x] Retrieve
+- [x] Login
+- [x] Sign-up
+- [x] Search
 
 **Help us make this project much better**
 
