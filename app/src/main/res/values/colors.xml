@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<!-- automa_parking colors -->
+
+	<color name="colorPrimary">#008577</color>
+	<color name="colorPrimaryDark">#00574B</color>
+	<color name="colorAccent">#D81B60</color>
+
+	<color name="_bg__records_ek2_color">#FFFFFF</color>
+	<color name="circle18_color">#019874</color>
+	<color name="circle17_color">#009873</color>
+	<color name="_5_30_pm_color">#000000</color>
+	<color name="download_btn_color">#B70505</color>
+	<color name="scroll_wheel_color">#C4C4C4</color>
+	<color name="more_info______color">#0074FD</color>
+	<color name="record_edit_btn_color">#E4A502</color>
+	<color name="record_delete_btn_color">#CC0000</color>
+	<color name="total___color">#7D7D7D</color>
+	<color name="line_1_color">#EFB110</color>
+	<color name="circle20_color">#536DFE</color>
+	<color name="edit_btn_color">#09A710</color>
+	<color name="delete_btn_color">#D70000</color>
+	<color name="forgot_your_password__color">#232323</color>
+    <color name="delete_button_color" />
+	<color name="edit_button_color" />
+	<color name="ellipse_1_color" />
+	<color name="ellipse_3_color" />
+	<color name="ellipse_4_color" />
+    <color name="rectangle_17_color" />
+	<color name="rectangle_20_color" />
+	<color name="rectangle_18_color" />
+	<color name="rectangle_19_color" />
+
+</resources>

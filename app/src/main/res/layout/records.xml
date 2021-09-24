@@ -1,0 +1,343 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		automa_parking
+	 *	@date 		1629010822992
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/records" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+			<RelativeLayout android:id="@+id/page_records_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View android:id="@+id/_bg__records_ek2"
+					android:background="@drawable/_bg__records_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="411dp"
+					android:layout_height="823dp" />
+
+				<View android:id="@+id/circle18"
+					android:background="@drawable/circle18_shape"
+					 android:layout_marginStart="286dp"
+					android:layout_marginTop="-57dp"
+					android:layout_width="199dp"
+					android:layout_height="199dp" />
+
+				<View android:id="@+id/circle17"
+					android:background="@drawable/circle17_shape"
+					 android:alpha="0.21999999880791"
+					 android:layout_marginStart="264dp"
+					android:layout_marginTop="-37dp"
+					android:layout_width="199dp"
+					android:layout_height="199dp" />
+
+				<ImageView android:id="@+id/battery9"
+					android:src="@drawable/battery9"
+					android:contentDescription="battery9"
+					 android:layout_marginStart="375dp"
+					android:layout_marginTop="19dp"
+					android:layout_width="20dp"
+					android:layout_height="11dp" />
+
+				<ImageView android:id="@+id/signal9"
+					android:src="@drawable/signal9"
+					android:contentDescription="signal9"
+					 android:layout_marginStart="350dp"
+					android:layout_marginTop="18dp"
+					android:layout_width="14dp"
+					android:layout_height="11dp" />
+
+				<ImageView android:id="@+id/wifi9"
+					android:src="@drawable/wifi9"
+					android:contentDescription="wifi9"
+					 android:layout_marginStart="329dp"
+					android:layout_marginTop="19dp"
+					android:layout_width="14dp"
+					android:layout_height="11dp" />
+
+				<TextView android:id="@+id/_5_30_pm"
+					android:textSize="15sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="24dp"
+					android:layout_marginTop="16dp"
+					android:layout_width="72dp"
+					android:layout_height="24.5dp"
+					android:text="@string/_5_30_pm_string"
+					 />
+
+				<TextView
+					android:id="@+id/hello__dissanayake"
+					android:layout_width="178dp"
+					android:layout_height="69dp"
+					android:layout_marginLeft="92dp"
+					android:layout_marginTop="70dp"
+					android:text="@string/hello__dissanayake_string"
+					android:textColor="#00796B"
+					android:textSize="16sp" />
+
+				<ImageView android:id="@+id/profile_img3"
+					android:src="@drawable/profile_img3"
+					android:contentDescription="profile_img3"
+					 android:layout_marginStart="319dp"
+					android:layout_marginTop="50dp"
+					android:layout_width="63dp"
+					android:layout_height="63dp" />
+
+				<ImageView android:id="@+id/record_menu_icon"
+					android:src="@drawable/record_menu_icon"
+					android:contentDescription="record_menu_icon"
+					 android:layout_marginStart="35dp"
+					android:layout_marginTop="80dp"
+					android:layout_width="23dp"
+					android:layout_height="23dp" />
+
+				<View android:id="@+id/record_navigation_bar"
+					android:background="@drawable/record_navigation_bar_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="753dp"
+					android:layout_width="411dp"
+					android:layout_height="70dp" />
+
+				<ImageView android:id="@+id/record_home_logo"
+					android:src="@drawable/record_home_logo"
+					android:contentDescription="record_home_logo"
+					 android:layout_marginStart="66dp"
+					android:layout_marginTop="777dp"
+					android:layout_width="25dp"
+					android:layout_height="19.44dp" />
+
+				<ImageView
+					android:id="@+id/record_history_logo"
+					android:layout_width="21.88dp"
+					android:layout_height="25dp"
+					android:layout_marginStart="155dp"
+					android:layout_marginTop="775dp"
+					android:contentDescription="record_history_logo"
+					android:src="@drawable/record_history_logo"
+					tools:ignore="ImageContrastCheck" />
+
+				<ImageView android:id="@+id/record_checkout_logo"
+					android:src="@drawable/record_checkout_logo"
+					android:contentDescription="record_checkout_logo"
+					 android:layout_marginStart="238dp"
+					android:layout_marginTop="775dp"
+					android:layout_width="25dp"
+					android:layout_height="22.22dp" />
+
+				<ImageView android:id="@+id/record_profile_logo"
+					android:src="@drawable/record_profile_logo"
+					android:contentDescription="record_profile_logo"
+					 android:layout_marginStart="326dp"
+					android:layout_marginTop="774dp"
+					android:layout_width="21.88dp"
+					android:layout_height="25dp" />
+
+				<TextView android:id="@+id/purchase_history"
+					android:textStyle="bold"
+					android:textSize="30sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="47dp"
+					android:layout_marginTop="167dp"
+					android:layout_width="299dp"
+					android:layout_height="61dp"
+					android:text="@string/purchase_history_string"
+					 />
+
+				<View android:id="@+id/download_btn"
+					android:background="@drawable/download_btn_shape"
+					 android:layout_marginStart="40dp"
+					android:layout_marginTop="665dp"
+					android:layout_width="173dp"
+					android:layout_height="44dp" />
+
+				<TextView android:id="@+id/download_bill"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="14sp"
+					android:textColor="@color/_bg__records_ek2_color"
+					android:layout_marginLeft="72dp"
+					android:layout_marginTop="678dp"
+					android:layout_width="117dp"
+					android:layout_height="37dp"
+					android:text="@string/download_bill_string"
+					 />
+
+				<View android:id="@+id/record__background_"
+					android:background="@drawable/record__background__shape"
+					 android:layout_marginStart="42dp"
+					android:layout_marginTop="228dp"
+					android:layout_width="325dp"
+					android:layout_height="402dp" />
+
+				<TextView android:id="@+id/date__08_12_2021_order_number__12903_total_amount__rs___2500"
+					android:textSize="12sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="61dp"
+					android:layout_marginTop="255dp"
+					android:layout_width="172dp"
+					android:layout_height="73dp"
+					android:text="@string/date__08_12_2021_order_number__12903_total_amount__rs___2500_string"
+					 />
+
+				<TextView android:id="@+id/date__10_09_2021_order_number__312324_total_amount__rs___5000"
+					android:textSize="12sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="61dp"
+					android:layout_marginTop="362dp"
+					android:layout_width="172dp"
+					android:layout_height="73dp"
+					android:text="@string/date__10_09_2021_order_number__312324_total_amount__rs___5000_string"
+					 />
+
+				<TextView android:id="@+id/date__05_01_2020_order_number__8678_total_amount__rs___1500"
+					android:textSize="12sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="63dp"
+					android:layout_marginTop="449dp"
+					android:layout_width="172dp"
+					android:layout_height="73dp"
+					android:text="@string/date__05_01_2020_order_number__8678_total_amount__rs___1500_string"
+					 />
+
+				<TextView android:id="@+id/date__03_10_2019_order_number__09975_total_amount__rs___500"
+					android:textSize="12sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="61dp"
+					android:layout_marginTop="538dp"
+					android:layout_width="172dp"
+					android:layout_height="73dp"
+					android:text="@string/date__03_10_2019_order_number__09975_total_amount__rs___500_string"
+					 />
+
+				<View android:id="@+id/scroll_wheel"
+					android:background="@drawable/scroll_wheel_shape"
+					 android:layout_marginStart="353dp"
+					android:layout_marginTop="359dp"
+					android:layout_width="4dp"
+					android:layout_height="56dp" />
+
+				<TextView
+					android:id="@+id/more_info_____"
+					android:layout_width="89dp"
+					android:layout_height="29dp"
+					android:layout_marginLeft="58dp"
+					android:layout_marginTop="307dp"
+					android:text="@string/more_info______string"
+					android:textColor="#2962FF"
+					android:textSize="12sp" />
+
+				<TextView
+					android:id="@+id/more_info______ek1"
+					android:layout_width="89dp"
+					android:layout_height="29dp"
+					android:layout_marginLeft="58dp"
+					android:layout_marginTop="415dp"
+					android:text="@string/more_info______ek1_string"
+					android:textColor="#2962FF"
+					android:textSize="12sp" />
+
+				<TextView
+					android:id="@+id/more_info______ek2"
+					android:layout_width="89dp"
+					android:layout_height="29dp"
+					android:layout_marginLeft="58dp"
+					android:layout_marginTop="501dp"
+					android:text="@string/more_info______ek2_string"
+					android:textColor="#2962FF"
+					android:textSize="12sp" />
+
+				<TextView
+					android:id="@+id/more_info______ek3"
+					android:layout_width="89dp"
+					android:layout_height="29dp"
+					android:layout_marginLeft="58dp"
+					android:layout_marginTop="594dp"
+					android:text="@string/more_info______ek3_string"
+					android:textColor="#2962FF"
+					android:textSize="12sp" />
+
+				<TextView android:id="@+id/note_only_the_latest_bill_can_be_edited___downloaded"
+					android:textSize="12sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="259dp"
+					android:layout_marginTop="662dp"
+					android:layout_width="140dp"
+					android:layout_height="64dp"
+					android:text="@string/note_only_the_latest_bill_can_be_edited___downloaded_string"
+					 />
+
+				<View android:id="@+id/record_edit_btn"
+					android:background="@drawable/record_edit_btn_shape"
+					 android:layout_marginStart="249dp"
+					android:layout_marginTop="256dp"
+					android:layout_width="97dp"
+					android:layout_height="28dp" />
+
+				<TextView
+					android:id="@+id/edit_bill"
+					android:layout_width="117dp"
+					android:layout_height="37dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="242dp"
+					android:layout_marginTop="261dp"
+					android:gravity="center"
+					android:text="@string/edit_bill_string"
+					android:textColor="#4E342E"
+					android:textSize="14sp"
+					tools:ignore="TextContrastCheck" />
+
+				<View android:id="@+id/record_delete_btn"
+					android:background="@drawable/record_delete_btn_shape"
+					 android:layout_marginStart="249dp"
+					android:layout_marginTop="292dp"
+					android:layout_width="97dp"
+					android:layout_height="31dp" />
+
+				<TextView android:id="@+id/delete_order"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="13sp"
+					android:textColor="@color/_bg__records_ek2_color"
+					android:layout_marginLeft="242dp"
+					android:layout_marginTop="298dp"
+					android:layout_width="117dp"
+					android:layout_height="34.5dp"
+					android:text="@string/delete_order_string"
+					 />
+
+			</RelativeLayout>
+
+
+
+
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

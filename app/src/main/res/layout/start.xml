@@ -1,0 +1,179 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		automa_parking
+	 *	@date 		1629010822992
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/start" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+
+
+			<RelativeLayout android:id="@+id/page_start_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View android:id="@+id/_bg__start_ek2"
+					android:background="@drawable/_bg__start_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="411dp"
+					android:layout_height="823dp" />
+
+				<View android:id="@+id/start_background_grey"
+					android:background="@drawable/start_background_grey_shape"
+					 android:alpha="0.25"
+					 android:layout_marginStart="-1dp"
+					android:layout_marginTop="442dp"
+					android:layout_width="412dp"
+					android:layout_height="388dp" />
+
+				<View android:id="@+id/circle12"
+					android:background="@drawable/circle12_shape"
+					 android:layout_marginStart="272dp"
+					android:layout_marginTop="-99dp"
+					android:layout_width="199dp"
+					android:layout_height="199dp" />
+
+				<View android:id="@+id/circle11"
+					android:background="@drawable/circle11_shape"
+					 android:alpha="0.21999999880791"
+					 android:layout_marginStart="257dp"
+					android:layout_marginTop="-80dp"
+					android:layout_width="199dp"
+					android:layout_height="199dp" />
+
+				<ImageView android:id="@+id/battery6"
+					android:src="@drawable/battery6"
+					android:contentDescription="battery6"
+					 android:layout_marginStart="375dp"
+					android:layout_marginTop="19dp"
+					android:layout_width="20dp"
+					android:layout_height="11dp" />
+
+				<ImageView android:id="@+id/signal6"
+					android:src="@drawable/signal6"
+					android:contentDescription="signal6"
+					 android:layout_marginStart="350dp"
+					android:layout_marginTop="18dp"
+					android:layout_width="14dp"
+					android:layout_height="11dp" />
+
+				<ImageView android:id="@+id/wifi6"
+					android:src="@drawable/wifi6"
+					android:contentDescription="wifi6"
+					 android:layout_marginStart="329dp"
+					android:layout_marginTop="19dp"
+					android:layout_width="14dp"
+					android:layout_height="11dp" />
+
+				<TextView android:id="@+id/_5_30_pm_ek3"
+					android:textSize="15sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="24dp"
+					android:layout_marginTop="16dp"
+					android:layout_width="72dp"
+					android:layout_height="24.5dp"
+					android:text="@string/_5_30_pm_ek3_string"
+					 />
+
+				<ImageView android:id="@+id/logo_img"
+					android:src="@drawable/logo_img"
+					android:contentDescription="logo_img"
+					 android:layout_marginStart="33dp"
+					android:layout_marginTop="63dp"
+					android:layout_width="50dp"
+					android:layout_height="37dp" />
+
+				<TextView android:id="@+id/coffee_"
+					android:textStyle="bold"
+					android:textSize="25sp"
+					android:textColor="@color/circle18_color"
+					android:layout_marginLeft="119dp"
+					android:layout_marginTop="63dp"
+					android:layout_width="123dp"
+					android:layout_height="46.5dp"
+					android:text="@string/coffee__string"
+					 />
+
+				<ImageView android:id="@+id/start_img"
+					android:src="@drawable/start_img"
+					android:contentDescription="start_img"
+					 android:layout_marginStart="48dp"
+					android:layout_marginTop="100dp"
+					android:layout_width="315dp"
+					android:layout_height="262dp" />
+
+				<TextView android:id="@+id/order_a_coffee_right_to_your_parking_spot"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="20sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="56dp"
+					android:layout_marginTop="370dp"
+					android:layout_width="308dp"
+					android:layout_height="66dp"
+					android:text="@string/order_a_coffee_right_to_your_parking_spot_string"
+					 />
+
+				<TextView android:id="@+id/do_you_want_to_be_energized_before_shopping_with_your_wife__maybe_you_have_a_long_drive_ahead_of_you__when_you_are_in_process_of_parking_your_car_or_leaving_you_have_the_option_of_getting_a_coffee_delivered_right_to_your_parking_slot_"
+					android:textSize="14sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="45dp"
+					android:layout_marginTop="491dp"
+					android:layout_width="327dp"
+					android:layout_height="155dp"
+					android:text="@string/do_you_want_to_be_energized_before_shopping_with_your_wife__maybe_you_have_a_long_drive_ahead_of_you__when_you_are_in_process_of_parking_your_car_or_leaving_you_have_the_option_of_getting_a_coffee_delivered_right_to_your_parking_slot__string"
+					 />
+
+				<View android:id="@+id/getstarted_btn"
+					android:background="@drawable/getstarted_btn_shape"
+					 android:layout_marginStart="48dp"
+					android:layout_marginTop="661dp"
+					android:layout_width="315dp"
+					android:layout_height="51dp" />
+
+				<TextView android:id="@+id/get_started"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="20sp"
+					android:textColor="@color/_bg__records_ek2_color"
+					android:layout_marginLeft="141dp"
+					android:layout_marginTop="672dp"
+					android:layout_width="139dp"
+					android:layout_height="43dp"
+					android:text="@string/get_started_string"
+					 />
+
+			</RelativeLayout>
+
+
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

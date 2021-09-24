@@ -1,0 +1,355 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		automa_parking
+	 *	@date 		1629010822992
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/checkout" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+			<RelativeLayout android:id="@+id/page_checkout_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View android:id="@+id/_bg__checkout_ek2"
+					android:background="@drawable/_bg__checkout_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="411dp"
+					android:layout_height="823dp" />
+
+				<View android:id="@+id/circle16"
+					android:background="@drawable/circle16_shape"
+					 android:layout_marginStart="286dp"
+					android:layout_marginTop="-57dp"
+					android:layout_width="199dp"
+					android:layout_height="199dp" />
+
+				<View android:id="@+id/circle15"
+					android:background="@drawable/circle15_shape"
+					 android:alpha="0.21999999880791"
+					 android:layout_marginStart="264dp"
+					android:layout_marginTop="-37dp"
+					android:layout_width="199dp"
+					android:layout_height="199dp" />
+
+				<ImageView android:id="@+id/battery8"
+					android:src="@drawable/battery8"
+					android:contentDescription="battery8"
+					 android:layout_marginStart="375dp"
+					android:layout_marginTop="19dp"
+					android:layout_width="20dp"
+					android:layout_height="11dp" />
+
+				<ImageView android:id="@+id/signal8"
+					android:src="@drawable/signal8"
+					android:contentDescription="signal8"
+					 android:layout_marginStart="350dp"
+					android:layout_marginTop="18dp"
+					android:layout_width="14dp"
+					android:layout_height="11dp" />
+
+				<ImageView android:id="@+id/wifi8"
+					android:src="@drawable/wifi8"
+					android:contentDescription="wifi8"
+					 android:layout_marginStart="329dp"
+					android:layout_marginTop="19dp"
+					android:layout_width="14dp"
+					android:layout_height="11dp" />
+
+				<TextView android:id="@+id/_5_30_pm_ek1"
+					android:textSize="15sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="24dp"
+					android:layout_marginTop="16dp"
+					android:layout_width="72dp"
+					android:layout_height="24.5dp"
+					android:text="@string/_5_30_pm_ek1_string"
+					 />
+
+				<TextView android:id="@+id/hello__dissanayake_ek1"
+					android:textSize="16sp"
+					android:textColor="@color/circle18_color"
+					android:layout_marginLeft="92dp"
+					android:layout_marginTop="71dp"
+					android:layout_width="178dp"
+					android:layout_height="69dp"
+					android:text="@string/hello__dissanayake_ek1_string"
+					 />
+
+				<ImageView android:id="@+id/profile_img2"
+					android:src="@drawable/profile_img2"
+					android:contentDescription="profile_img2"
+					 android:layout_marginStart="319dp"
+					android:layout_marginTop="50dp"
+					android:layout_width="63dp"
+					android:layout_height="63dp" />
+
+				<ImageView android:id="@+id/checkout_menu_icon"
+					android:src="@drawable/checkout_menu_icon"
+					android:contentDescription="checkout_menu_icon"
+					 android:layout_marginStart="35dp"
+					android:layout_marginTop="80dp"
+					android:layout_width="23dp"
+					android:layout_height="23dp" />
+
+				<View android:id="@+id/checkout_navigation_bar"
+					android:background="@drawable/checkout_navigation_bar_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="753dp"
+					android:layout_width="411dp"
+					android:layout_height="70dp" />
+
+				<ImageView android:id="@+id/checkout_home_logo"
+					android:src="@drawable/checkout_home_logo"
+					android:contentDescription="checkout_home_logo"
+					 android:layout_marginStart="66dp"
+					android:layout_marginTop="777dp"
+					android:layout_width="25dp"
+					android:layout_height="19.44dp" />
+
+				<ImageView android:id="@+id/checkout_history_logo"
+					android:src="@drawable/checkout_history_logo"
+					android:contentDescription="checkout_history_logo"
+					 android:layout_marginStart="155dp"
+					android:layout_marginTop="775dp"
+					android:layout_width="21.88dp"
+					android:layout_height="25dp" />
+
+				<ImageView android:id="@+id/checkout_checkout_logo"
+					android:src="@drawable/checkout_checkout_logo"
+					android:contentDescription="checkout_checkout_logo"
+					 android:layout_marginStart="238dp"
+					android:layout_marginTop="775dp"
+					android:layout_width="25dp"
+					android:layout_height="22.22dp" />
+
+				<ImageView android:id="@+id/checkout_profile_logo"
+					android:src="@drawable/checkout_profile_logo"
+					android:contentDescription="checkout_profile_logo"
+					 android:layout_marginStart="326dp"
+					android:layout_marginTop="774dp"
+					android:layout_width="21.88dp"
+					android:layout_height="25dp" />
+
+				<ImageView android:id="@+id/checkout_img"
+					android:src="@drawable/checkout_img"
+					android:contentDescription="checkout_img"
+					 android:layout_marginStart="195dp"
+					android:layout_marginTop="603dp"
+					android:layout_width="169dp"
+					android:layout_height="145dp" />
+
+				<ImageView android:id="@+id/checkout_cardno_textfeild"
+					android:src="@drawable/checkout_cardno_textfeild"
+					android:contentDescription="checkout_cardno_textfeild"
+					 android:layout_marginStart="51dp"
+					android:layout_marginTop="294dp"
+					android:layout_width="315dp"
+					android:layout_height="51dp" />
+
+				<ImageView android:id="@+id/checkout_name_textfeild"
+					android:src="@drawable/checkout_name_textfeild"
+					android:contentDescription="checkout_name_textfeild"
+					 android:layout_marginStart="51dp"
+					android:layout_marginTop="221dp"
+					android:layout_width="315dp"
+					android:layout_height="51dp" />
+
+				<ImageView android:id="@+id/checkout_expiry_textfeild"
+					android:src="@drawable/checkout_expiry_textfeild"
+					android:contentDescription="checkout_expiry_textfeild"
+					 android:layout_marginStart="51dp"
+					android:layout_marginTop="359dp"
+					android:layout_width="144dp"
+					android:layout_height="51dp" />
+
+				<ImageView android:id="@+id/checkout_cvv_textfeild"
+					android:src="@drawable/checkout_cvv_textfeild"
+					android:contentDescription="checkout_cvv_textfeild"
+					 android:layout_marginStart="228dp"
+					android:layout_marginTop="361dp"
+					android:layout_width="130dp"
+					android:layout_height="51dp" />
+
+				<TextView android:id="@+id/card_number"
+					android:textSize="15sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="68dp"
+					android:layout_marginTop="306.5dp"
+					android:layout_width="123dp"
+					android:layout_height="33.5dp"
+					android:text="@string/card_number_string"
+					 />
+
+				<TextView android:id="@+id/full_name"
+					android:textSize="15sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="68dp"
+					android:layout_marginTop="235dp"
+					android:layout_width="123dp"
+					android:layout_height="33.5dp"
+					android:text="@string/full_name_string"
+					 />
+
+				<TextView android:id="@+id/expiry_date"
+					android:textSize="15sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="68dp"
+					android:layout_marginTop="374dp"
+					android:layout_width="123dp"
+					android:layout_height="33.5dp"
+					android:text="@string/expiry_date_string"
+					 />
+
+				<TextView android:id="@+id/cvv"
+					android:textSize="15sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="250dp"
+					android:layout_marginTop="378dp"
+					android:layout_width="67dp"
+					android:layout_height="24.5dp"
+					android:text="@string/cvv_string"
+					 />
+
+				<ImageView android:id="@+id/mastercard_img"
+					android:src="@drawable/mastercard_img"
+					android:contentDescription="mastercard_img"
+					 android:layout_marginStart="70dp"
+					android:layout_marginTop="170dp"
+					android:layout_width="64dp"
+					android:layout_height="37dp" />
+
+				<View android:id="@+id/bill_background"
+					android:background="@drawable/bill_background_shape"
+					 android:layout_marginStart="53dp"
+					android:layout_marginTop="432dp"
+					android:layout_width="306dp"
+					android:layout_height="171dp" />
+
+				<TextView android:id="@+id/quantity_item_price"
+					android:textSize="12sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="73dp"
+					android:layout_marginTop="455dp"
+					android:layout_width="291dp"
+					android:layout_height="30dp"
+					android:text="@string/quantity_item_price_string"
+					 />
+
+				<TextView android:id="@+id/_2_latte_rs___1000_1_expresso_rs___1500"
+					android:textSize="12sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="59dp"
+					android:layout_marginTop="481dp"
+					android:layout_width="301dp"
+					android:layout_height="95dp"
+					android:text="@string/_2_latte_rs___1000_1_expresso_rs___1500_string"
+					 />
+
+				<ImageView android:id="@+id/barcode"
+					android:src="@drawable/barcode"
+					android:contentDescription="barcode"
+					 android:layout_marginStart="73dp"
+					android:layout_marginTop="558dp"
+					android:layout_width="84dp"
+					android:layout_height="19dp" />
+
+				<View android:id="@+id/total_amount"
+					android:background="@drawable/total_amount_shape"
+					 android:layout_marginStart="257dp"
+					android:layout_marginTop="556dp"
+					android:layout_width="94dp"
+					android:layout_height="28dp" />
+
+				<TextView android:id="@+id/rs___25000"
+					android:textStyle="bold"
+					android:textSize="12sp"
+					android:textColor="@color/_bg__records_ek2_color"
+					android:layout_marginLeft="272dp"
+					android:layout_marginTop="561dp"
+					android:layout_width="87dp"
+					android:layout_height="24dp"
+					android:text="@string/rs___25000_string"
+					 />
+
+				<View android:id="@+id/cancle_btn"
+					android:background="@drawable/cancle_btn_shape"
+					 android:layout_marginStart="44dp"
+					android:layout_marginTop="671dp"
+					android:layout_width="132dp"
+					android:layout_height="44dp" />
+
+				<TextView android:id="@+id/cancel_order"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="14sp"
+					android:textColor="@color/_bg__records_ek2_color"
+					android:layout_marginLeft="56dp"
+					android:layout_marginTop="683dp"
+					android:layout_width="117dp"
+					android:layout_height="35dp"
+					android:text="@string/cancel_order_string"
+					 />
+
+				<TextView android:id="@+id/total__"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="12sp"
+					android:textColor="@color/total___color"
+					android:layout_marginLeft="197dp"
+					android:layout_marginTop="561dp"
+					android:layout_width="73dp"
+					android:layout_height="25dp"
+					android:text="@string/total___string"
+					 />
+
+				<ImageView android:id="@+id/paypal_img"
+					android:src="@drawable/paypal_img"
+					android:contentDescription="paypal_img"
+					 android:layout_marginStart="252dp"
+					android:layout_marginTop="171dp"
+					android:layout_width="103dp"
+					android:layout_height="35dp" />
+
+				<ImageView android:id="@+id/visa_img"
+					android:src="@drawable/visa_img"
+					android:contentDescription="visa_img"
+					 android:layout_marginStart="157dp"
+					android:layout_marginTop="171dp"
+					android:layout_width="71dp"
+					android:layout_height="35dp" />
+
+			</RelativeLayout>
+
+
+
+
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- welcome_navigation_bar from your XD file. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+	android:shape="rectangle" >
+	<corners android:radius="20dp" />
+	<solid android:color="@color/circle18_color" />
+</shape>
+

@@ -1,0 +1,228 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		automa_parking
+	 *	@date 		1629010822992
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/contact_us" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+
+
+			<RelativeLayout android:id="@+id/page_contact_us_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View android:id="@+id/_bg__contact_us_ek2"
+					android:background="@drawable/_bg__contact_us_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="411dp"
+					android:layout_height="823dp" />
+
+				<View android:id="@+id/circle10"
+					android:background="@drawable/circle10_shape"
+					 android:alpha="0.60000002384186"
+					 android:layout_marginStart="285dp"
+					android:layout_marginTop="-75dp"
+					android:layout_width="199dp"
+					android:layout_height="199dp" />
+
+				<View android:id="@+id/circle9"
+					android:background="@drawable/circle9_shape"
+					 android:alpha="0.40000000596046"
+					 android:layout_marginStart="266dp"
+					android:layout_marginTop="-61dp"
+					android:layout_width="212dp"
+					android:layout_height="205dp" />
+
+				<TextView android:id="@+id/_5_30_pm_ek5"
+					android:textSize="15sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="24dp"
+					android:layout_marginTop="16dp"
+					android:layout_width="72dp"
+					android:layout_height="24.5dp"
+					android:text="@string/_5_30_pm_ek5_string"
+					 />
+
+				<ImageView android:id="@+id/battery5"
+					android:src="@drawable/battery5"
+					android:contentDescription="battery5"
+					 android:layout_marginStart="375dp"
+					android:layout_marginTop="19dp"
+					android:layout_width="20dp"
+					android:layout_height="11dp" />
+
+				<ImageView android:id="@+id/signal5"
+					android:src="@drawable/signal5"
+					android:contentDescription="signal5"
+					 android:layout_marginStart="350dp"
+					android:layout_marginTop="18dp"
+					android:layout_width="14dp"
+					android:layout_height="11dp" />
+
+				<TextView android:id="@+id/automa_parking_ek1"
+					android:textStyle="bold"
+					android:textSize="25sp"
+					android:textColor="@color/circle20_color"
+					android:layout_marginLeft="60dp"
+					android:layout_marginTop="60dp"
+					android:layout_width="137dp"
+					android:layout_height="84.5dp"
+					android:text="@string/automa_parking_ek1_string"
+					 />
+
+				<ImageView android:id="@+id/wifi5"
+					android:src="@drawable/wifi5"
+					android:contentDescription="wifi5"
+					 android:layout_marginStart="329dp"
+					android:layout_marginTop="19dp"
+					android:layout_width="14dp"
+					android:layout_height="11dp" />
+
+				<View android:id="@+id/send_btn"
+					android:background="@drawable/send_btn_shape"
+					 android:layout_marginStart="48dp"
+					android:layout_marginTop="719dp"
+					android:layout_width="315dp"
+					android:layout_height="51dp" />
+
+				<TextView android:id="@+id/send_mail"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="20sp"
+					android:textColor="@color/_bg__records_ek2_color"
+					android:layout_marginLeft="141dp"
+					android:layout_marginTop="732dp"
+					android:layout_width="139dp"
+					android:layout_height="43dp"
+					android:text="@string/send_mail_string"
+					 />
+
+				<View android:id="@+id/contact_background"
+					android:background="@drawable/contact_background_shape"
+					 android:layout_marginStart="51dp"
+					android:layout_marginTop="299dp"
+					android:layout_width="306dp"
+					android:layout_height="393dp" />
+
+				<ImageView android:id="@+id/profile_img"
+					android:src="@drawable/profile_img"
+					android:contentDescription="profile_img"
+					 android:layout_marginStart="81dp"
+					android:layout_marginTop="136dp"
+					android:layout_width="250dp"
+					android:layout_height="136dp" />
+
+				<TextView android:id="@+id/contact_us_ek3"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="20sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="-33dp"
+					android:layout_marginTop="319dp"
+					android:layout_width="330dp"
+					android:layout_height="46dp"
+					android:text="@string/contact_us_ek3_string"
+					 />
+
+				<TextView android:id="@+id/contact_us_via_your_email_to_our_customer_support"
+					android:textSize="15sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="75dp"
+					android:layout_marginTop="346dp"
+					android:layout_width="218dp"
+					android:layout_height="59.5dp"
+					android:text="@string/contact_us_via_your_email_to_our_customer_support_string"
+					 />
+
+				<View android:id="@+id/contact_message_txt_feild"
+					android:background="@drawable/contact_message_txt_feild_shape"
+					 android:layout_marginStart="80dp"
+					android:layout_marginTop="529dp"
+					android:layout_width="251dp"
+					android:layout_height="136dp" />
+
+				<View android:id="@+id/contact_name_txt_feild"
+					android:background="@drawable/contact_name_txt_feild_shape"
+					 android:layout_marginStart="78dp"
+					android:layout_marginTop="416dp"
+					android:layout_width="251dp"
+					android:layout_height="35dp" />
+
+				<View android:id="@+id/contact_email_txt_feild"
+					android:background="@drawable/contact_email_txt_feild_shape"
+					 android:layout_marginStart="80dp"
+					android:layout_marginTop="473dp"
+					android:layout_width="251dp"
+					android:layout_height="35dp" />
+
+				<TextView android:id="@+id/full_name_ek1"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="14sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="72dp"
+					android:layout_marginTop="423dp"
+					android:layout_width="128dp"
+					android:layout_height="34dp"
+					android:text="@string/full_name_ek1_string"
+					 />
+
+				<TextView android:id="@+id/email"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="14sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="90dp"
+					android:layout_marginTop="483dp"
+					android:layout_width="61dp"
+					android:layout_height="34dp"
+					android:text="@string/email_string"
+					 />
+
+				<TextView android:id="@+id/message"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="14sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="63dp"
+					android:layout_marginTop="540dp"
+					android:layout_width="128dp"
+					android:layout_height="34dp"
+					android:text="@string/message_string"
+					 />
+
+			</RelativeLayout>
+
+
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

@@ -1,0 +1,480 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		automa_parking
+	 *	@date 		1629010822992
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/welcome_coffee" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+			<RelativeLayout android:id="@+id/page_welcome_coffee_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View android:id="@+id/_bg__welcome_coffee_ek2"
+					android:background="@drawable/_bg__welcome_coffee_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="411dp"
+					android:layout_height="823dp" />
+
+				<View android:id="@+id/expresso_bakcground"
+					android:background="@drawable/expresso_bakcground_shape"
+					 android:layout_marginStart="44dp"
+					android:layout_marginTop="371dp"
+					android:layout_width="147dp"
+					android:layout_height="162dp" />
+
+				<View android:id="@+id/circle14"
+					android:background="@drawable/circle14_shape"
+					 android:layout_marginStart="286dp"
+					android:layout_marginTop="-57dp"
+					android:layout_width="199dp"
+					android:layout_height="199dp" />
+
+				<View android:id="@+id/circle13"
+					android:background="@drawable/circle13_shape"
+					 android:alpha="0.21999999880791"
+					 android:layout_marginStart="260dp"
+					android:layout_marginTop="-46dp"
+					android:layout_width="199dp"
+					android:layout_height="199dp" />
+
+				<ImageView android:id="@+id/battery7"
+					android:src="@drawable/battery7"
+					android:contentDescription="battery7"
+					 android:layout_marginStart="375dp"
+					android:layout_marginTop="19dp"
+					android:layout_width="20dp"
+					android:layout_height="11dp" />
+
+				<ImageView android:id="@+id/signal7"
+					android:src="@drawable/signal7"
+					android:contentDescription="signal7"
+					 android:layout_marginStart="350dp"
+					android:layout_marginTop="18dp"
+					android:layout_width="14dp"
+					android:layout_height="11dp" />
+
+				<ImageView android:id="@+id/wifi7"
+					android:src="@drawable/wifi7"
+					android:contentDescription="wifi7"
+					 android:layout_marginStart="329dp"
+					android:layout_marginTop="19dp"
+					android:layout_width="14dp"
+					android:layout_height="11dp" />
+
+				<TextView android:id="@+id/_5_30_pm_ek2"
+					android:textSize="15sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="24dp"
+					android:layout_marginTop="16dp"
+					android:layout_width="72dp"
+					android:layout_height="24.5dp"
+					android:text="@string/_5_30_pm_ek2_string"
+					 />
+
+				<TextView android:id="@+id/hello__dissanayake_ek2"
+					android:textSize="16sp"
+					android:textColor="@color/circle18_color"
+					android:layout_marginLeft="95dp"
+					android:layout_marginTop="71dp"
+					android:layout_width="178dp"
+					android:layout_height="69dp"
+					android:text="@string/hello__dissanayake_ek2_string"
+					 />
+
+				<ImageView android:id="@+id/profile_img1"
+					android:src="@drawable/profile_img1"
+					android:contentDescription="profile_img1"
+					 android:layout_marginStart="319dp"
+					android:layout_marginTop="50dp"
+					android:layout_width="63dp"
+					android:layout_height="63dp" />
+
+				<ImageView android:id="@+id/welcome_menu_icon"
+					android:src="@drawable/welcome_menu_icon"
+					android:contentDescription="welcome_menu_icon"
+					 android:layout_marginStart="41dp"
+					android:layout_marginTop="82dp"
+					android:layout_width="23dp"
+					android:layout_height="23dp" />
+
+				<ImageView android:id="@+id/search_bar"
+					android:src="@drawable/search_bar"
+					android:contentDescription="search_bar"
+					 android:layout_marginStart="39dp"
+					android:layout_marginTop="175dp"
+					android:layout_width="338dp"
+					android:layout_height="49dp" />
+
+				<ImageView android:id="@+id/list_icon"
+					android:src="@drawable/list_icon"
+					android:contentDescription="list_icon"
+					 android:layout_marginStart="338dp"
+					android:layout_marginTop="189dp"
+					android:layout_width="25dp"
+					android:layout_height="21.88dp" />
+
+				<ImageView android:id="@+id/search_icon"
+					android:src="@drawable/search_icon"
+					android:contentDescription="search_icon"
+					 android:layout_marginStart="61dp"
+					android:layout_marginTop="184dp"
+					android:layout_width="25dp"
+					android:layout_height="25dp" />
+
+				<TextView android:id="@+id/search_coffee"
+					android:textSize="15sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="97dp"
+					android:layout_marginTop="189dp"
+					android:layout_width="123dp"
+					android:layout_height="30.5dp"
+					android:text="@string/search_coffee_string"
+					 />
+
+				<TextView android:id="@+id/coffee"
+					android:textStyle="bold"
+					android:textSize="30sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="39dp"
+					android:layout_marginTop="241dp"
+					android:layout_width="155dp"
+					android:layout_height="60dp"
+					android:text="@string/coffee_string"
+					 />
+
+				<TextView android:id="@+id/espresso"
+					android:textStyle="bold"
+					android:textSize="20sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="39dp"
+					android:layout_marginTop="288dp"
+					android:layout_width="120dp"
+					android:layout_height="43dp"
+					android:text="@string/espresso_string"
+					 />
+
+				<TextView android:id="@+id/cappuccino"
+					android:textStyle="bold"
+					android:textSize="20sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="194dp"
+					android:layout_marginTop="288dp"
+					android:layout_width="146dp"
+					android:layout_height="43dp"
+					android:text="@string/cappuccino_string"
+					 />
+
+				<View android:id="@+id/line_1"
+					android:background="@drawable/line_1_shape"
+					 android:layout_marginStart="44dp"
+					android:layout_marginTop="317dp"
+					android:layout_width="63.01dp"
+					android:layout_height="2dp" />
+
+				<View android:id="@+id/expresso_background"
+					android:background="@drawable/expresso_background_shape"
+					 android:layout_marginStart="31dp"
+					android:layout_marginTop="446dp"
+					android:layout_width="229dp"
+					android:layout_height="118dp" />
+
+				<View android:id="@+id/order_background"
+					android:background="@drawable/order_background_shape"
+					 android:layout_marginStart="31dp"
+					android:layout_marginTop="593dp"
+					android:layout_width="346dp"
+					android:layout_height="132dp" />
+
+				<TextView android:id="@+id/latte"
+					android:textStyle="bold"
+					android:textSize="20sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="377dp"
+					android:layout_marginTop="288dp"
+					android:layout_width="80dp"
+					android:layout_height="43dp"
+					android:text="@string/latte_string"
+					 />
+
+				<ImageView android:id="@+id/welcome_coffee1_img"
+					android:src="@drawable/welcome_coffee1_img"
+					android:contentDescription="welcome_coffee1_img"
+					 android:layout_marginStart="44dp"
+					android:layout_marginTop="333dp"
+					android:layout_width="147dp"
+					android:layout_height="105dp" />
+
+				<TextView android:id="@+id/espresso_ek1"
+					android:textStyle="bold"
+					android:textSize="15sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="47dp"
+					android:layout_marginTop="458dp"
+					android:layout_width="107dp"
+					android:layout_height="38.5dp"
+					android:text="@string/espresso_ek1_string"
+					 />
+
+				<TextView android:id="@+id/save_and_quick_order_your_favorite_coffee"
+					android:textSize="12sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="69dp"
+					android:layout_marginTop="629dp"
+					android:layout_width="172dp"
+					android:layout_height="41dp"
+					android:text="@string/save_and_quick_order_your_favorite_coffee_string"
+					 />
+
+				<TextView android:id="@+id/instant_order"
+					android:textStyle="bold"
+					android:textSize="14sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="69dp"
+					android:layout_marginTop="607dp"
+					android:layout_width="117dp"
+					android:layout_height="32dp"
+					android:text="@string/instant_order_string"
+					 />
+
+				<TextView android:id="@+id/espresso_is_simply_a_small_amount_of_nearly_boiling_water_is_forced_under_9_10_bars_of_pressure_through_finely_ground_coffee_beans_"
+					android:textSize="11sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="45dp"
+					android:layout_marginTop="481dp"
+					android:layout_width="202dp"
+					android:layout_height="69.5dp"
+					android:text="@string/espresso_is_simply_a_small_amount_of_nearly_boiling_water_is_forced_under_9_10_bars_of_pressure_through_finely_ground_coffee_beans__string"
+					 />
+
+				<ImageView android:id="@+id/star6"
+					android:src="@drawable/star6"
+					android:contentDescription="star6"
+					 android:layout_marginStart="146dp"
+					android:layout_marginTop="460dp"
+					android:layout_width="12dp"
+					android:layout_height="13dp" />
+
+				<ImageView android:id="@+id/star7"
+					android:src="@drawable/star7"
+					android:contentDescription="star7"
+					 android:layout_marginStart="165dp"
+					android:layout_marginTop="460dp"
+					android:layout_width="13dp"
+					android:layout_height="13dp" />
+
+				<ImageView android:id="@+id/star8"
+					android:src="@drawable/star8"
+					android:contentDescription="star8"
+					 android:layout_marginStart="182dp"
+					android:layout_marginTop="460dp"
+					android:layout_width="13dp"
+					android:layout_height="13dp" />
+
+				<ImageView android:id="@+id/star9"
+					android:src="@drawable/star9"
+					android:contentDescription="star9"
+					 android:layout_marginStart="202dp"
+					android:layout_marginTop="460dp"
+					android:layout_width="13dp"
+					android:layout_height="13dp" />
+
+				<ImageView android:id="@+id/star10"
+					android:src="@drawable/star10"
+					android:contentDescription="star10"
+					 android:layout_marginStart="222dp"
+					android:layout_marginTop="460dp"
+					android:layout_width="12dp"
+					android:layout_height="13dp" />
+
+				<ImageView android:id="@+id/select_btn"
+					android:src="@drawable/select_btn"
+					android:contentDescription="select_btn"
+					 android:layout_marginStart="218dp"
+					android:layout_marginTop="533dp"
+					android:layout_width="20dp"
+					android:layout_height="20dp" />
+
+				<View android:id="@+id/cappuccino_background"
+					android:background="@drawable/cappuccino_background_shape"
+					 android:layout_marginStart="308dp"
+					android:layout_marginTop="383dp"
+					android:layout_width="116dp"
+					android:layout_height="136dp" />
+
+				<View android:id="@+id/cappuccino_descrip"
+					android:background="@drawable/cappuccino_descrip_shape"
+					 android:layout_marginStart="299dp"
+					android:layout_marginTop="446dp"
+					android:layout_width="180dp"
+					android:layout_height="81dp" />
+
+				<TextView android:id="@+id/cappuccino_ek1"
+					android:textStyle="bold"
+					android:textSize="12sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="311dp"
+					android:layout_marginTop="455dp"
+					android:layout_width="91dp"
+					android:layout_height="31dp"
+					android:text="@string/cappuccino_ek1_string"
+					 />
+
+				<TextView android:id="@+id/this_is_a_drink_involve_the_use_of_cream_instead_of_milk__using_non_dairy_milk_substitutes_and_flavoring_with_cinnamon_or_chocolate_powder_"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="309dp"
+					android:layout_marginTop="475dp"
+					android:layout_width="178dp"
+					android:layout_height="58.5dp"
+					android:text="@string/this_is_a_drink_involve_the_use_of_cream_instead_of_milk__using_non_dairy_milk_substitutes_and_flavoring_with_cinnamon_or_chocolate_powder__string"
+					 />
+
+				<ImageView android:id="@+id/star5"
+					android:src="@drawable/star5"
+					android:contentDescription="star5"
+					 android:layout_marginStart="391dp"
+					android:layout_marginTop="455dp"
+					android:layout_width="10dp"
+					android:layout_height="10dp" />
+
+				<ImageView android:id="@+id/star4"
+					android:src="@drawable/star4"
+					android:contentDescription="star4"
+					 android:layout_marginStart="403dp"
+					android:layout_marginTop="455dp"
+					android:layout_width="10dp"
+					android:layout_height="10dp" />
+
+				<ImageView android:id="@+id/star3"
+					android:src="@drawable/star3"
+					android:contentDescription="star3"
+					 android:layout_marginStart="415dp"
+					android:layout_marginTop="458dp"
+					android:layout_width="10dp"
+					android:layout_height="10dp" />
+
+				<ImageView android:id="@+id/star2"
+					android:src="@drawable/star2"
+					android:contentDescription="star2"
+					 android:layout_marginStart="429dp"
+					android:layout_marginTop="458dp"
+					android:layout_width="10dp"
+					android:layout_height="10dp" />
+
+				<ImageView android:id="@+id/star1"
+					android:src="@drawable/star1"
+					android:contentDescription="star1"
+					 android:layout_marginStart="442dp"
+					android:layout_marginTop="458dp"
+					android:layout_width="10dp"
+					android:layout_height="10dp" />
+
+				<ImageView android:id="@+id/welcome_coffee2_img"
+					android:src="@drawable/welcome_coffee2_img"
+					android:contentDescription="welcome_coffee2_img"
+					 android:layout_marginStart="320dp"
+					android:layout_marginTop="339dp"
+					android:layout_width="116dp"
+					android:layout_height="103dp" />
+
+				<View android:id="@+id/welcome_navigation_bar"
+					android:background="@drawable/welcome_navigation_bar_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="753dp"
+					android:layout_width="411dp"
+					android:layout_height="70dp" />
+
+				<ImageView android:id="@+id/welcome_home_logo"
+					android:src="@drawable/welcome_home_logo"
+					android:contentDescription="welcome_home_logo"
+					 android:layout_marginStart="66dp"
+					android:layout_marginTop="777dp"
+					android:layout_width="25dp"
+					android:layout_height="19.44dp" />
+
+				<ImageView android:id="@+id/welcome_history_logo"
+					android:src="@drawable/welcome_history_logo"
+					android:contentDescription="welcome_history_logo"
+					 android:layout_marginStart="155dp"
+					android:layout_marginTop="775dp"
+					android:layout_width="21.88dp"
+					android:layout_height="25dp" />
+
+				<ImageView android:id="@+id/welcome_checkout_logo"
+					android:src="@drawable/welcome_checkout_logo"
+					android:contentDescription="welcome_checkout_logo"
+					 android:layout_marginStart="238dp"
+					android:layout_marginTop="775dp"
+					android:layout_width="25dp"
+					android:layout_height="22.22dp" />
+
+				<ImageView android:id="@+id/welcome_profile_logo"
+					android:src="@drawable/welcome_profile_logo"
+					android:contentDescription="welcome_profile_logo"
+					 android:layout_marginStart="326dp"
+					android:layout_marginTop="774dp"
+					android:layout_width="21.88dp"
+					android:layout_height="25dp" />
+
+				<ImageView android:id="@+id/order_img"
+					android:src="@drawable/order_img"
+					android:contentDescription="order_img"
+					 android:layout_marginStart="222dp"
+					android:layout_marginTop="593dp"
+					android:layout_width="135dp"
+					android:layout_height="123dp" />
+
+				<View android:id="@+id/order_btn"
+					android:background="@drawable/order_btn_shape"
+					 android:layout_marginStart="69dp"
+					android:layout_marginTop="677dp"
+					android:layout_width="132dp"
+					android:layout_height="31dp" />
+
+				<TextView android:id="@+id/order_now"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="14sp"
+					android:textColor="@color/_bg__records_ek2_color"
+					android:layout_marginLeft="81dp"
+					android:layout_marginTop="682dp"
+					android:layout_width="117dp"
+					android:layout_height="32dp"
+					android:text="@string/order_now_string"
+					 />
+
+			</RelativeLayout>
+
+
+
+
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

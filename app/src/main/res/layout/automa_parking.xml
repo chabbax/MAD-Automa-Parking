@@ -1,0 +1,178 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		automa_parking
+	 *	@date 		1629010822992
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/automa_parking" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+
+
+
+
+
+
+			<RelativeLayout android:id="@+id/page_automa_parking_ek3"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View android:id="@+id/_bg__automa_parking_ek4"
+					android:background="@drawable/_bg__automa_parking_ek4_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="411dp"
+					android:layout_height="823dp" />
+
+				<View android:id="@+id/circle2"
+					android:background="@drawable/circle2_shape"
+					 android:alpha="0.60000002384186"
+					 android:layout_marginStart="285dp"
+					android:layout_marginTop="-75dp"
+					android:layout_width="199dp"
+					android:layout_height="199dp" />
+
+				<View android:id="@+id/circle1"
+					android:background="@drawable/circle1_shape"
+					 android:alpha="0.40000000596046"
+					 android:layout_marginStart="266dp"
+					android:layout_marginTop="-61dp"
+					android:layout_width="212dp"
+					android:layout_height="205dp" />
+
+				<TextView android:id="@+id/_5_30_pm_ek9"
+					android:textSize="15sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="24dp"
+					android:layout_marginTop="16dp"
+					android:layout_width="72dp"
+					android:layout_height="24.5dp"
+					android:text="@string/_5_30_pm_ek9_string"
+					 />
+
+				<ImageView android:id="@+id/battery1"
+					android:src="@drawable/battery1"
+					android:contentDescription="battery1"
+					 android:layout_marginStart="375dp"
+					android:layout_marginTop="19dp"
+					android:layout_width="20dp"
+					android:layout_height="11dp" />
+
+				<ImageView android:id="@+id/signal1"
+					android:src="@drawable/signal1"
+					android:contentDescription="signal1"
+					 android:layout_marginStart="350dp"
+					android:layout_marginTop="18dp"
+					android:layout_width="14dp"
+					android:layout_height="11dp" />
+
+				<TextView android:id="@+id/automa_parking_ek5"
+					android:textStyle="bold"
+					android:textSize="25sp"
+					android:textColor="@color/circle20_color"
+					android:layout_marginLeft="60dp"
+					android:layout_marginTop="77dp"
+					android:layout_width="137dp"
+					android:layout_height="84.5dp"
+					android:text="@string/automa_parking_ek5_string"
+					 />
+
+				<ImageView android:id="@+id/wifi1"
+					android:src="@drawable/wifi1"
+					android:contentDescription="wifi1"
+					 android:layout_marginStart="329dp"
+					android:layout_marginTop="19dp"
+					android:layout_width="14dp"
+					android:layout_height="11dp" />
+
+				<TextView android:id="@+id/automa_parking_is_an_app_which_has_the_capability_of_showing_empty_parking_slots_after_the_pruchase_of_a_ticket_or_a_booking_and_with_our_added_innovation_of_a_coffee_delivery_service_and_a_car_wash_"
+					android:textSize="15sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="45dp"
+					android:layout_marginTop="444dp"
+					android:layout_width="328dp"
+					android:layout_height="156.5dp"
+					android:text="@string/automa_parking_is_an_app_which_has_the_capability_of_showing_empty_parking_slots_after_the_pruchase_of_a_ticket_or_a_booking_and_with_our_added_innovation_of_a_coffee_delivery_service_and_a_car_wash__string"
+					 />
+
+				<TextView android:id="@+id/accept_our_terms___conditions"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="15sp"
+					android:textColor="@color/_5_30_pm_color"
+					android:layout_marginLeft="56dp"
+					android:layout_marginTop="703dp"
+					android:layout_width="322dp"
+					android:layout_height="35.5dp"
+					android:text="@string/accept_our_terms___conditions_string"
+					 />
+
+				<View android:id="@+id/start_btn"
+					android:background="@drawable/start_btn_shape"
+					 android:layout_marginStart="44dp"
+					android:layout_marginTop="642dp"
+					android:layout_width="315dp"
+					android:layout_height="51dp" />
+
+				<TextView android:id="@+id/lets_start__ek1"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="20sp"
+					android:textColor="@color/_bg__records_ek2_color"
+					android:layout_marginLeft="134dp"
+					android:layout_marginTop="653dp"
+					android:layout_width="139dp"
+					android:layout_height="43dp"
+					android:text="@string/lets_start__ek1_string"
+					 />
+
+				<ImageView android:id="@+id/automa_parking_img"
+					android:src="@drawable/automa_parking_img"
+					android:contentDescription="automa_parking_img"
+					 android:layout_marginStart="48dp"
+					android:layout_marginTop="176dp"
+					android:layout_width="315dp"
+					android:layout_height="236dp" />
+
+				<View android:id="@+id/tick"
+					android:background="@drawable/tick_shape"
+					 android:layout_marginStart="49dp"
+					android:layout_marginTop="707dp"
+					android:layout_width="20dp"
+					android:layout_height="18dp" />
+
+				<ImageView android:id="@+id/checkbox"
+					android:src="@drawable/checkbox"
+					android:contentDescription="checkbox"
+					 android:layout_marginStart="53dp"
+					android:layout_marginTop="711dp"
+					android:layout_width="12dp"
+					android:layout_height="14dp" />
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>
