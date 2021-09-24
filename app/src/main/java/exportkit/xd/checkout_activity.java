@@ -110,6 +110,16 @@ public class checkout_activity extends Activity {
 			}
 		});
 
+		checkout_home_logo = findViewById(R.id.checkout_home_logo);
+		checkout_home_logo.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent i = new Intent(getApplicationContext(),welcome_coffee_activity.class);
+				// Launch next activity
+				startActivity(i);
+			}
+		});
+
 	
 	}
 }

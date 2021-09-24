@@ -13,6 +13,7 @@ import android.widget.ImageView;
 public class selection_activity extends Activity {
 
 	// Create button object
+	private View selection_send_mail;
 	private View _bg__selection_ek2;
 	private View circle20;
 	private View circle19;
@@ -49,6 +50,20 @@ public class selection_activity extends Activity {
 			public void onClick(View v) {
 				// Create intent
 				Intent i = new Intent(getApplicationContext(),start_activity.class);
+				// Launch next activity
+				startActivity(i);
+			}
+		});
+
+		// Link java button with xml button
+		selection_send_mail = findViewById(R.id.selection_send_mail);
+
+		// Set listener to the button
+		selection_send_mail.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				// Create intent
+				Intent i = new Intent(getApplicationContext(),contact_us_activity.class);
 				// Launch next activity
 				startActivity(i);
 			}

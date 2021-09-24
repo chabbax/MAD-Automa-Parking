@@ -25,7 +25,7 @@
 					android:background="@drawable/_bg__selection_ek2_shape" />
 
 				<View
-					android:id="@+id/carwash_btn2"
+					android:id="@+id/selection_send_mail"
 					android:layout_width="315dp"
 					android:layout_height="51dp"
 					android:layout_marginStart="41dp"
