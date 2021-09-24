@@ -1,20 +1,6 @@
 <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent" android:layout_height="wrap_content" >
-	<!-- 
-	/*
-	 *	This content is generated from the API File Info.
-	 *	(Alt+Shift+Ctrl+I).
-	 *
-	 *	@desc 		
-	 *	@file 		automa_parking
-	 *	@date 		1629010822992
-	 *	@title 		Page 1
-	 *	@author 	
-	 *	@keywords 	
-	 *	@generator 	Export Kit v1.3.figma
-	 *
-	 */
-	-->
+
 	<ScrollView android:id="@+id/welcome_coffee" 
 		android:layout_width="wrap_content" 
 		android:layout_height="match_parent" >
@@ -23,8 +9,6 @@
 			android:layout_width="wrap_content" 
 			android:layout_height="wrap_content" >
 
-
-
 			<RelativeLayout android:id="@+id/page_welcome_coffee_ek1"
 				android:layout_marginTop="0dp"
 				android:layout_marginStart="0dp"
@@ -32,12 +16,13 @@
 				android:layout_height="wrap_content"
 				>
 
-				<View android:id="@+id/_bg__welcome_coffee_ek2"
-					android:background="@drawable/_bg__welcome_coffee_ek2_shape"
-					 android:layout_marginStart="0dp"
-					android:layout_marginTop="0dp"
+				<View
+					android:id="@+id/_bg__welcome_coffee_ek2"
 					android:layout_width="411dp"
-					android:layout_height="823dp" />
+					android:layout_height="823dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/_bg__welcome_coffee_ek2_shape" />
 
 				<View android:id="@+id/expresso_bakcground"
 					android:background="@drawable/expresso_bakcground_shape"
@@ -95,15 +80,15 @@
 					android:text="@string/_5_30_pm_ek2_string"
 					 />
 
-				<TextView android:id="@+id/hello__dissanayake_ek2"
-					android:textSize="16sp"
-					android:textColor="@color/circle18_color"
-					android:layout_marginLeft="95dp"
-					android:layout_marginTop="71dp"
+				<TextView
+					android:id="@+id/hello__dissanayake_ek2"
 					android:layout_width="178dp"
 					android:layout_height="69dp"
+					android:layout_marginLeft="95dp"
+					android:layout_marginTop="75dp"
 					android:text="@string/hello__dissanayake_ek2_string"
-					 />
+					android:textColor="@color/circle18_color"
+					android:textSize="16sp" />
 
 				<ImageView android:id="@+id/profile_img1"
 					android:src="@drawable/profile_img1"
@@ -137,13 +122,14 @@
 					android:layout_width="25dp"
 					android:layout_height="21.88dp" />
 
-				<ImageView android:id="@+id/search_icon"
-					android:src="@drawable/search_icon"
-					android:contentDescription="search_icon"
-					 android:layout_marginStart="61dp"
-					android:layout_marginTop="184dp"
+				<ImageView
+					android:id="@+id/search_icon"
 					android:layout_width="25dp"
-					android:layout_height="25dp" />
+					android:layout_height="25dp"
+					android:layout_marginStart="61dp"
+					android:layout_marginTop="186dp"
+					android:contentDescription="search_icon"
+					android:src="@drawable/search_icon" />
 
 				<TextView android:id="@+id/search_coffee"
 					android:textSize="15sp"
@@ -195,19 +181,21 @@
 					android:layout_width="63.01dp"
 					android:layout_height="2dp" />
 
-				<View android:id="@+id/expresso_background"
-					android:background="@drawable/expresso_background_shape"
-					 android:layout_marginStart="31dp"
-					android:layout_marginTop="446dp"
+				<View
+					android:id="@+id/expresso_background"
 					android:layout_width="229dp"
-					android:layout_height="118dp" />
+					android:layout_height="118dp"
+					android:layout_marginStart="31dp"
+					android:layout_marginTop="446dp"
+					android:background="@drawable/login_background_grey_shape" />
 
-				<View android:id="@+id/order_background"
-					android:background="@drawable/order_background_shape"
-					 android:layout_marginStart="31dp"
-					android:layout_marginTop="593dp"
+				<View
+					android:id="@+id/order_background"
 					android:layout_width="346dp"
-					android:layout_height="132dp" />
+					android:layout_height="132dp"
+					android:layout_marginStart="31dp"
+					android:layout_marginTop="593dp"
+					android:background="@drawable/rectangle_12_ek1" />
 
 				<TextView android:id="@+id/latte"
 					android:textStyle="bold"
@@ -325,12 +313,13 @@
 					android:layout_width="116dp"
 					android:layout_height="136dp" />
 
-				<View android:id="@+id/cappuccino_descrip"
-					android:background="@drawable/cappuccino_descrip_shape"
-					 android:layout_marginStart="299dp"
+				<View
+					android:id="@+id/cappuccino_descrip"
+					android:layout_width="182dp"
+					android:layout_height="92dp"
+					android:layout_marginStart="299dp"
 					android:layout_marginTop="446dp"
-					android:layout_width="180dp"
-					android:layout_height="81dp" />
+					android:background="@drawable/login_background_grey_shape" />
 
 				<TextView android:id="@+id/cappuccino_ek1"
 					android:textStyle="bold"
@@ -343,14 +332,14 @@
 					android:text="@string/cappuccino_ek1_string"
 					 />
 
-				<TextView android:id="@+id/this_is_a_drink_involve_the_use_of_cream_instead_of_milk__using_non_dairy_milk_substitutes_and_flavoring_with_cinnamon_or_chocolate_powder_"
-					android:textColor="@color/_5_30_pm_color"
+				<TextView
+					android:id="@+id/this_is_a_drink_involve_the_use_of_cream_instead_of_milk__using_non_dairy_milk_substitutes_and_flavoring_with_cinnamon_or_chocolate_powder_"
+					android:layout_width="155dp"
+					android:layout_height="50dp"
 					android:layout_marginLeft="309dp"
 					android:layout_marginTop="475dp"
-					android:layout_width="178dp"
-					android:layout_height="58.5dp"
 					android:text="@string/this_is_a_drink_involve_the_use_of_cream_instead_of_milk__using_non_dairy_milk_substitutes_and_flavoring_with_cinnamon_or_chocolate_powder__string"
-					 />
+					android:textColor="@color/_5_30_pm_color" />
 
 				<ImageView android:id="@+id/star5"
 					android:src="@drawable/star5"
@@ -439,13 +428,14 @@
 					android:layout_width="21.88dp"
 					android:layout_height="25dp" />
 
-				<ImageView android:id="@+id/order_img"
-					android:src="@drawable/order_img"
+				<ImageView
+					android:id="@+id/order_img"
+					android:layout_width="122dp"
+					android:layout_height="98dp"
+					android:layout_marginStart="222dp"
+					android:layout_marginTop="610dp"
 					android:contentDescription="order_img"
-					 android:layout_marginStart="222dp"
-					android:layout_marginTop="593dp"
-					android:layout_width="135dp"
-					android:layout_height="123dp" />
+					android:src="@drawable/order_img" />
 
 				<View android:id="@+id/order_btn"
 					android:background="@drawable/order_btn_shape"
@@ -454,18 +444,18 @@
 					android:layout_width="132dp"
 					android:layout_height="31dp" />
 
-				<TextView android:id="@+id/order_now"
-					android:textStyle="bold"
+				<TextView
+					android:id="@+id/order_now"
+					android:layout_width="106dp"
+					android:layout_height="wrap_content"
 					android:layout_gravity="center_horizontal|center"
-					android:gravity="center"
-					android:textSize="14sp"
-					android:textColor="@color/_bg__records_ek2_color"
 					android:layout_marginLeft="81dp"
 					android:layout_marginTop="682dp"
-					android:layout_width="117dp"
-					android:layout_height="32dp"
+					android:gravity="center"
 					android:text="@string/order_now_string"
-					 />
+					android:textColor="@color/_bg__records_ek2_color"
+					android:textSize="14sp"
+					android:textStyle="bold" />
 
 			</RelativeLayout>
 

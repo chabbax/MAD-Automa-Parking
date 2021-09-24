@@ -1,20 +1,6 @@
 <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent" android:layout_height="wrap_content" >
-	<!-- 
-	/*
-	 *	This content is generated from the API File Info.
-	 *	(Alt+Shift+Ctrl+I).
-	 *
-	 *	@desc 		
-	 *	@file 		automa_parking
-	 *	@date 		1629010822992
-	 *	@title 		Page 1
-	 *	@author 	
-	 *	@keywords 	
-	 *	@generator 	Export Kit v1.3.figma
-	 *
-	 */
-	-->
+
 	<ScrollView android:id="@+id/records" 
 		android:layout_width="wrap_content" 
 		android:layout_height="match_parent" >
@@ -22,8 +8,6 @@
 		<RelativeLayout android:id="@+id/content_container" 
 			android:layout_width="wrap_content" 
 			android:layout_height="wrap_content" >
-
-
 
 			<RelativeLayout android:id="@+id/page_records_ek1"
 				android:layout_marginTop="0dp"
@@ -173,25 +157,26 @@
 					android:layout_width="173dp"
 					android:layout_height="44dp" />
 
-				<TextView android:id="@+id/download_bill"
-					android:textStyle="bold"
+				<TextView
+					android:id="@+id/download_bill"
+					android:layout_width="112dp"
+					android:layout_height="wrap_content"
 					android:layout_gravity="center_horizontal|center"
-					android:gravity="center"
-					android:textSize="14sp"
-					android:textColor="@color/_bg__records_ek2_color"
 					android:layout_marginLeft="72dp"
 					android:layout_marginTop="678dp"
-					android:layout_width="117dp"
-					android:layout_height="37dp"
+					android:gravity="center"
 					android:text="@string/download_bill_string"
-					 />
+					android:textColor="@color/_bg__records_ek2_color"
+					android:textSize="14sp"
+					android:textStyle="bold" />
 
-				<View android:id="@+id/record__background_"
-					android:background="@drawable/record__background__shape"
-					 android:layout_marginStart="42dp"
-					android:layout_marginTop="228dp"
+				<View
+					android:id="@+id/record__background_"
 					android:layout_width="325dp"
-					android:layout_height="402dp" />
+					android:layout_height="402dp"
+					android:layout_marginStart="42dp"
+					android:layout_marginTop="228dp"
+					android:background="@drawable/login_background_grey_shape" />
 
 				<TextView android:id="@+id/date__08_12_2021_order_number__12903_total_amount__rs___2500"
 					android:textSize="12sp"
@@ -299,8 +284,8 @@
 
 				<TextView
 					android:id="@+id/edit_bill"
-					android:layout_width="117dp"
-					android:layout_height="37dp"
+					android:layout_width="116dp"
+					android:layout_height="wrap_content"
 					android:layout_gravity="center_horizontal|center"
 					android:layout_marginLeft="242dp"
 					android:layout_marginTop="261dp"
@@ -317,18 +302,18 @@
 					android:layout_width="97dp"
 					android:layout_height="31dp" />
 
-				<TextView android:id="@+id/delete_order"
-					android:textStyle="bold"
+				<TextView
+					android:id="@+id/delete_order"
+					android:layout_width="117dp"
+					android:layout_height="wrap_content"
 					android:layout_gravity="center_horizontal|center"
-					android:gravity="center"
-					android:textSize="13sp"
-					android:textColor="@color/_bg__records_ek2_color"
 					android:layout_marginLeft="242dp"
 					android:layout_marginTop="298dp"
-					android:layout_width="117dp"
-					android:layout_height="34.5dp"
+					android:gravity="center"
 					android:text="@string/delete_order_string"
-					 />
+					android:textColor="@color/_bg__records_ek2_color"
+					android:textSize="13sp"
+					android:textStyle="bold" />
 
 			</RelativeLayout>
 

@@ -1,20 +1,6 @@
 <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent" android:layout_height="wrap_content" >
-	<!-- 
-	/*
-	 *	This content is generated from the API File Info.
-	 *	(Alt+Shift+Ctrl+I).
-	 *
-	 *	@desc 		
-	 *	@file 		automa_parking
-	 *	@date 		1629010822992
-	 *	@title 		Page 1
-	 *	@author 	
-	 *	@keywords 	
-	 *	@generator 	Export Kit v1.3.figma
-	 *
-	 */
-	-->
+
 	<ScrollView android:id="@+id/login" 
 		android:layout_width="wrap_content" 
 		android:layout_height="match_parent" >
@@ -22,12 +8,6 @@
 		<RelativeLayout android:id="@+id/content_container" 
 			android:layout_width="wrap_content" 
 			android:layout_height="wrap_content" >
-
-
-
-
-
-
 
 			<RelativeLayout android:id="@+id/page_login_ek1"
 				android:layout_marginTop="0dp"
@@ -104,13 +84,14 @@
 					android:layout_width="14dp"
 					android:layout_height="11dp" />
 
-				<View android:id="@+id/login_background_grey"
-					android:background="@drawable/login_background_grey_shape"
-					 android:alpha="0.52999997138977"
-					 android:layout_marginStart="0dp"
-					android:layout_marginTop="371dp"
+				<View
+					android:id="@+id/login_background_grey"
 					android:layout_width="411dp"
-					android:layout_height="472dp" />
+					android:layout_height="472dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="371dp"
+					android:alpha="0.52999997138977"
+					android:background="@drawable/login_background_grey_shape" />
 
 				<TextView android:id="@+id/welcome_back_"
 					android:textStyle="bold"
@@ -182,42 +163,42 @@
 					android:layout_width="315dp"
 					android:layout_height="51dp" />
 
-				<TextView android:id="@+id/login_ek4"
-					android:textStyle="bold"
+				<TextView
+					android:id="@+id/login_ek4"
+					android:layout_width="124dp"
+					android:layout_height="wrap_content"
 					android:layout_gravity="center_horizontal|center"
-					android:gravity="center"
-					android:textSize="20sp"
-					android:textColor="@color/_bg__records_ek2_color"
 					android:layout_marginLeft="141dp"
 					android:layout_marginTop="674dp"
-					android:layout_width="139dp"
-					android:layout_height="43dp"
-					android:text="@string/login_ek4_string"
-					 />
-
-				<TextView android:id="@+id/enter_your_email"
-					android:layout_gravity="center_horizontal|center"
 					android:gravity="center"
-					android:textSize="14sp"
-					android:textColor="@color/_5_30_pm_color"
+					android:text="@string/login_ek4_string"
+					android:textColor="@color/_bg__records_ek2_color"
+					android:textSize="20sp"
+					android:textStyle="bold" />
+
+				<TextView
+					android:id="@+id/enter_your_email"
+					android:layout_width="127dp"
+					android:layout_height="30dp"
+					android:layout_gravity="center_horizontal|center"
 					android:layout_marginLeft="61dp"
 					android:layout_marginTop="498dp"
-					android:layout_width="128dp"
-					android:layout_height="35dp"
-					android:text="@string/enter_your_email_string"
-					 />
-
-				<TextView android:id="@+id/enter_password"
-					android:layout_gravity="center_horizontal|center"
 					android:gravity="center"
-					android:textSize="14sp"
+					android:text="@string/enter_your_email_string"
 					android:textColor="@color/_5_30_pm_color"
+					android:textSize="14sp" />
+
+				<TextView
+					android:id="@+id/enter_password"
+					android:layout_width="125dp"
+					android:layout_height="32dp"
+					android:layout_gravity="center_horizontal|center"
 					android:layout_marginLeft="61dp"
 					android:layout_marginTop="567dp"
-					android:layout_width="128dp"
-					android:layout_height="35dp"
+					android:gravity="center"
 					android:text="@string/enter_password_string"
-					 />
+					android:textColor="@color/_5_30_pm_color"
+					android:textSize="14sp" />
 
 				<ImageView android:id="@+id/login_img"
 					android:src="@drawable/login_img"

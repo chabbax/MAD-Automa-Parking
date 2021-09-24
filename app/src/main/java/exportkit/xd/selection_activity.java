@@ -64,7 +64,7 @@ public class selection_activity extends Activity {
 		signal10 = (ImageView) findViewById(R.id.signal10);
 		automa_parking = (TextView) findViewById(R.id.automa_parking);
 		wifi10 = (ImageView) findViewById(R.id.wifi10);
-		lets_start_ = (TextView) findViewById(R.id.lets_start_);
+		lets_start_ = (TextView) findViewById(R.id.mail_btn);
 		booking_btn = (View) findViewById(R.id.booking_btn);
 		parking_ticket_btn = (View) findViewById(R.id.parking_ticket_btn);
 		order_coffee_btn = (View) findViewById(R.id.order_coffee_btn);

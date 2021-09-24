@@ -1,20 +1,6 @@
 <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent" android:layout_height="wrap_content" >
-	<!-- 
-	/*
-	 *	This content is generated from the API File Info.
-	 *	(Alt+Shift+Ctrl+I).
-	 *
-	 *	@desc 		
-	 *	@file 		automa_parking
-	 *	@date 		1629010822992
-	 *	@title 		Page 1
-	 *	@author 	
-	 *	@keywords 	
-	 *	@generator 	Export Kit v1.3.figma
-	 *
-	 */
-	-->
+
 	<ScrollView android:id="@+id/start" 
 		android:layout_width="wrap_content" 
 		android:layout_height="match_parent" >
@@ -22,10 +8,6 @@
 		<RelativeLayout android:id="@+id/content_container" 
 			android:layout_width="wrap_content" 
 			android:layout_height="wrap_content" >
-
-
-
-
 
 			<RelativeLayout android:id="@+id/page_start_ek1"
 				android:layout_marginTop="0dp"
@@ -41,13 +23,14 @@
 					android:layout_width="411dp"
 					android:layout_height="823dp" />
 
-				<View android:id="@+id/start_background_grey"
-					android:background="@drawable/start_background_grey_shape"
-					 android:alpha="0.25"
-					 android:layout_marginStart="-1dp"
-					android:layout_marginTop="442dp"
+				<View
+					android:id="@+id/start_background_grey"
 					android:layout_width="412dp"
-					android:layout_height="388dp" />
+					android:layout_height="388dp"
+					android:layout_marginStart="-1dp"
+					android:layout_marginTop="442dp"
+					android:alpha="0.25"
+					android:background="@drawable/start_background_grey_shape" />
 
 				<View android:id="@+id/circle12"
 					android:background="@drawable/circle12_shape"
@@ -138,15 +121,15 @@
 					android:text="@string/order_a_coffee_right_to_your_parking_spot_string"
 					 />
 
-				<TextView android:id="@+id/do_you_want_to_be_energized_before_shopping_with_your_wife__maybe_you_have_a_long_drive_ahead_of_you__when_you_are_in_process_of_parking_your_car_or_leaving_you_have_the_option_of_getting_a_coffee_delivered_right_to_your_parking_slot_"
-					android:textSize="14sp"
-					android:textColor="@color/_5_30_pm_color"
-					android:layout_marginLeft="45dp"
-					android:layout_marginTop="491dp"
+				<TextView
+					android:id="@+id/do_you_want_to_be_energized_before_shopping_with_your_wife__maybe_you_have_a_long_drive_ahead_of_you__when_you_are_in_process_of_parking_your_car_or_leaving_you_have_the_option_of_getting_a_coffee_delivered_right_to_your_parking_slot_"
 					android:layout_width="327dp"
 					android:layout_height="155dp"
+					android:layout_marginLeft="45dp"
+					android:layout_marginTop="491dp"
 					android:text="@string/do_you_want_to_be_energized_before_shopping_with_your_wife__maybe_you_have_a_long_drive_ahead_of_you__when_you_are_in_process_of_parking_your_car_or_leaving_you_have_the_option_of_getting_a_coffee_delivered_right_to_your_parking_slot__string"
-					 />
+					android:textColor="@color/_5_30_pm_color"
+					android:textSize="16sp" />
 
 				<View android:id="@+id/getstarted_btn"
 					android:background="@drawable/getstarted_btn_shape"
@@ -155,18 +138,18 @@
 					android:layout_width="315dp"
 					android:layout_height="51dp" />
 
-				<TextView android:id="@+id/get_started"
-					android:textStyle="bold"
+				<TextView
+					android:id="@+id/get_started"
+					android:layout_width="130dp"
+					android:layout_height="wrap_content"
 					android:layout_gravity="center_horizontal|center"
-					android:gravity="center"
-					android:textSize="20sp"
-					android:textColor="@color/_bg__records_ek2_color"
 					android:layout_marginLeft="141dp"
 					android:layout_marginTop="672dp"
-					android:layout_width="139dp"
-					android:layout_height="43dp"
+					android:gravity="center"
 					android:text="@string/get_started_string"
-					 />
+					android:textColor="@color/_bg__records_ek2_color"
+					android:textSize="20sp"
+					android:textStyle="bold" />
 
 			</RelativeLayout>
 

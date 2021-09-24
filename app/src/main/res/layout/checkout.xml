@@ -1,20 +1,6 @@
 <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent" android:layout_height="wrap_content" >
-	<!-- 
-	/*
-	 *	This content is generated from the API File Info.
-	 *	(Alt+Shift+Ctrl+I).
-	 *
-	 *	@desc 		
-	 *	@file 		automa_parking
-	 *	@date 		1629010822992
-	 *	@title 		Page 1
-	 *	@author 	
-	 *	@keywords 	
-	 *	@generator 	Export Kit v1.3.figma
-	 *
-	 */
-	-->
+
 	<ScrollView android:id="@+id/checkout" 
 		android:layout_width="wrap_content" 
 		android:layout_height="match_parent" >
@@ -22,8 +8,6 @@
 		<RelativeLayout android:id="@+id/content_container" 
 			android:layout_width="wrap_content" 
 			android:layout_height="wrap_content" >
-
-
 
 			<RelativeLayout android:id="@+id/page_checkout_ek1"
 				android:layout_marginTop="0dp"
@@ -301,18 +285,18 @@
 					android:layout_width="132dp"
 					android:layout_height="44dp" />
 
-				<TextView android:id="@+id/cancel_order"
-					android:textStyle="bold"
+				<TextView
+					android:id="@+id/cancel_order"
+					android:layout_width="113dp"
+					android:layout_height="wrap_content"
 					android:layout_gravity="center_horizontal|center"
-					android:gravity="center"
-					android:textSize="14sp"
-					android:textColor="@color/_bg__records_ek2_color"
 					android:layout_marginLeft="56dp"
 					android:layout_marginTop="683dp"
-					android:layout_width="117dp"
-					android:layout_height="35dp"
+					android:gravity="center"
 					android:text="@string/cancel_order_string"
-					 />
+					android:textColor="@color/_bg__records_ek2_color"
+					android:textSize="14sp"
+					android:textStyle="bold" />
 
 				<TextView android:id="@+id/total__"
 					android:layout_gravity="center_horizontal|center"
