@@ -38,7 +38,7 @@ In this project you wil need:
 ## Installation
 Clone this repository and import into **Android Studio**
 ```bash
-git clone git@github.com:wolox/<reponame>.git
+git clone github.com/Chabbax/MAD-Automa-Parking.git
 ```
 
 
