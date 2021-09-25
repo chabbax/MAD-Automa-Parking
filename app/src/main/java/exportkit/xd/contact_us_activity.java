@@ -3,6 +3,7 @@ package exportkit.xd;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 
@@ -41,33 +42,43 @@ public class contact_us_activity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.contact_us);
 
-		// Link java button with xml button
-		back_btn = findViewById(R.id.back_btn);
+		// Creating intent object with ACTION_SEND
+		// Defining the URL protocol as mailto
+		// Let the intent object to use above protocol
+		// Specify the recipients (String array)
+		// Launch the chooser which can handle this email intent
 
-		// Set listener to the button
-		back_btn.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				// Create intent
-				Intent i = new Intent(getApplicationContext(),selection_activity.class);
-				// Launch next activity
-				startActivity(i);
-			}
-		});
+		Intent intent = new Intent(Intent.ACTION_SEND);
+		Intent chooser;
+		intent.setData(Uri.parse("mailto:"));
+		intent.putExtra(Intent.EXTRA_EMAIL, new String[]{"example@gmail.com"});
+		intent.putExtra(Intent.EXTRA_SUBJECT, "Type your inquiry here");
+		intent.putExtra(Intent.EXTRA_TEXT, "Explain your problem here");
+		intent.setType("text/plain");
+		chooser = Intent.createChooser(intent, "Send email");
 
 		// Link java button with xml button
 		send_btn = findViewById(R.id.send_btn);
 
-		// Set listener to the button
+		// Set listener to the buttton
 		send_btn.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				// Create intent
+				// Launch gmail pop-up
+				startActivity(chooser);
+			}
+		});
+
+		back_btn = findViewById(R.id.back_btn);
+		back_btn.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
 				Intent i = new Intent(getApplicationContext(),selection_activity.class);
 				// Launch next activity
 				startActivity(i);
 			}
 		});
+
 	}
 }
 	
