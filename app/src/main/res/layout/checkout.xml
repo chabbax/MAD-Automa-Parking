@@ -197,21 +197,21 @@
 
 				<TextView
 					android:id="@+id/card_number"
-					android:layout_width="123dp"
-					android:layout_height="33.5dp"
+					android:layout_width="284dp"
+					android:layout_height="31dp"
 					android:layout_marginLeft="68dp"
 					android:layout_marginTop="306.5dp"
-					android:text="@string/card_number_string"
+					android:text="Card Number:   1234 5678 0987"
 					android:textColor="@color/_5_30_pm_color"
 					android:textSize="15sp" />
 
 				<TextView
 					android:id="@+id/full_name"
-					android:layout_width="123dp"
-					android:layout_height="33.5dp"
+					android:layout_width="277dp"
+					android:layout_height="32dp"
 					android:layout_marginLeft="68dp"
 					android:layout_marginTop="235dp"
-					android:text="@string/full_name_string"
+					android:text="Full Name:     Chandur Dissanayake"
 					android:textColor="@color/_5_30_pm_color"
 					android:textSize="15sp" />
 
@@ -221,17 +221,17 @@
 					android:layout_height="33.5dp"
 					android:layout_marginLeft="68dp"
 					android:layout_marginTop="374dp"
-					android:text="@string/expiry_date_string"
+					android:text="Quantity:     2"
 					android:textColor="@color/_5_30_pm_color"
 					android:textSize="15sp" />
 
 				<TextView
 					android:id="@+id/cvv"
-					android:layout_width="67dp"
-					android:layout_height="24.5dp"
-					android:layout_marginLeft="250dp"
-					android:layout_marginTop="378dp"
-					android:text="@string/cvv_string"
+					android:layout_width="132dp"
+					android:layout_height="30dp"
+					android:layout_marginLeft="243dp"
+					android:layout_marginTop="375dp"
+					android:text="Price: Rs/- 2500"
 					android:textColor="@color/_5_30_pm_color"
 					android:textSize="15sp" />
 
@@ -256,9 +256,9 @@
 					android:id="@+id/quantity_item_price"
 					android:layout_width="291dp"
 					android:layout_height="30dp"
-					android:layout_marginLeft="73dp"
+					android:layout_marginLeft="57dp"
 					android:layout_marginTop="455dp"
-					android:text="@string/quantity_item_price_string"
+					android:text="Quantity               Item               Price"
 					android:textColor="@color/_5_30_pm_color"
 					android:textSize="12sp" />
 
@@ -268,7 +268,7 @@
 					android:layout_height="95dp"
 					android:layout_marginLeft="59dp"
 					android:layout_marginTop="481dp"
-					android:text="@string/_2_latte_rs___1000_1_expresso_rs___1500_string"
+					android:text="2                            Latte             Rs/- 2500"
 					android:textColor="@color/_5_30_pm_color"
 					android:textSize="12sp" />
 
