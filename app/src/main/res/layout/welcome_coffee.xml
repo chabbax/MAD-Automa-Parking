@@ -24,13 +24,6 @@
 					android:layout_marginTop="0dp"
 					android:background="@drawable/_bg__welcome_coffee_ek2_shape" />
 
-				<View android:id="@+id/expresso_bakcground"
-					android:background="@drawable/expresso_bakcground_shape"
-					 android:layout_marginStart="44dp"
-					android:layout_marginTop="371dp"
-					android:layout_width="147dp"
-					android:layout_height="162dp" />
-
 				<View android:id="@+id/circle14"
 					android:background="@drawable/circle14_shape"
 					 android:layout_marginStart="286dp"
@@ -142,53 +135,16 @@
 					android:text="@string/search_coffee_string"
 					 />
 
-				<TextView android:id="@+id/coffee"
-					android:textStyle="bold"
-					android:textSize="30sp"
-					android:textColor="@color/_5_30_pm_color"
+				<TextView
+					android:id="@+id/coffee"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
 					android:layout_marginLeft="39dp"
 					android:layout_marginTop="241dp"
-					android:layout_width="155dp"
-					android:layout_height="60dp"
 					android:text="@string/coffee_string"
-					 />
-
-				<TextView android:id="@+id/espresso"
-					android:textStyle="bold"
-					android:textSize="20sp"
 					android:textColor="@color/_5_30_pm_color"
-					android:layout_marginLeft="39dp"
-					android:layout_marginTop="288dp"
-					android:layout_width="120dp"
-					android:layout_height="43dp"
-					android:text="@string/espresso_string"
-					 />
-
-				<TextView android:id="@+id/cappuccino"
-					android:textStyle="bold"
-					android:textSize="20sp"
-					android:textColor="@color/_5_30_pm_color"
-					android:layout_marginLeft="194dp"
-					android:layout_marginTop="288dp"
-					android:layout_width="146dp"
-					android:layout_height="43dp"
-					android:text="@string/cappuccino_string"
-					 />
-
-				<View android:id="@+id/line_1"
-					android:background="@drawable/line_1_shape"
-					 android:layout_marginStart="44dp"
-					android:layout_marginTop="317dp"
-					android:layout_width="63.01dp"
-					android:layout_height="2dp" />
-
-				<View
-					android:id="@+id/expresso_background"
-					android:layout_width="229dp"
-					android:layout_height="118dp"
-					android:layout_marginStart="31dp"
-					android:layout_marginTop="446dp"
-					android:background="@drawable/login_background_grey_shape" />
+					android:textSize="30sp"
+					android:textStyle="bold" />
 
 				<View
 					android:id="@+id/order_background"
@@ -197,36 +153,6 @@
 					android:layout_marginStart="31dp"
 					android:layout_marginTop="593dp"
 					android:background="@drawable/rectangle_12_ek1" />
-
-				<TextView android:id="@+id/latte"
-					android:textStyle="bold"
-					android:textSize="20sp"
-					android:textColor="@color/_5_30_pm_color"
-					android:layout_marginLeft="377dp"
-					android:layout_marginTop="288dp"
-					android:layout_width="80dp"
-					android:layout_height="43dp"
-					android:text="@string/latte_string"
-					 />
-
-				<ImageView android:id="@+id/welcome_coffee1_img"
-					android:src="@drawable/welcome_coffee1_img"
-					android:contentDescription="welcome_coffee1_img"
-					 android:layout_marginStart="44dp"
-					android:layout_marginTop="333dp"
-					android:layout_width="147dp"
-					android:layout_height="105dp" />
-
-				<TextView android:id="@+id/espresso_ek1"
-					android:textStyle="bold"
-					android:textSize="15sp"
-					android:textColor="@color/_5_30_pm_color"
-					android:layout_marginLeft="47dp"
-					android:layout_marginTop="458dp"
-					android:layout_width="107dp"
-					android:layout_height="38.5dp"
-					android:text="@string/espresso_ek1_string"
-					 />
 
 				<TextView android:id="@+id/save_and_quick_order_your_favorite_coffee"
 					android:textSize="12sp"
@@ -248,147 +174,6 @@
 					android:layout_height="32dp"
 					android:text="@string/instant_order_string"
 					 />
-
-				<TextView android:id="@+id/espresso_is_simply_a_small_amount_of_nearly_boiling_water_is_forced_under_9_10_bars_of_pressure_through_finely_ground_coffee_beans_"
-					android:textSize="11sp"
-					android:textColor="@color/_5_30_pm_color"
-					android:layout_marginLeft="45dp"
-					android:layout_marginTop="481dp"
-					android:layout_width="202dp"
-					android:layout_height="69.5dp"
-					android:text="@string/espresso_is_simply_a_small_amount_of_nearly_boiling_water_is_forced_under_9_10_bars_of_pressure_through_finely_ground_coffee_beans__string"
-					 />
-
-				<ImageView android:id="@+id/star6"
-					android:src="@drawable/star6"
-					android:contentDescription="star6"
-					 android:layout_marginStart="146dp"
-					android:layout_marginTop="460dp"
-					android:layout_width="12dp"
-					android:layout_height="13dp" />
-
-				<ImageView android:id="@+id/star7"
-					android:src="@drawable/star7"
-					android:contentDescription="star7"
-					 android:layout_marginStart="165dp"
-					android:layout_marginTop="460dp"
-					android:layout_width="13dp"
-					android:layout_height="13dp" />
-
-				<ImageView android:id="@+id/star8"
-					android:src="@drawable/star8"
-					android:contentDescription="star8"
-					 android:layout_marginStart="182dp"
-					android:layout_marginTop="460dp"
-					android:layout_width="13dp"
-					android:layout_height="13dp" />
-
-				<ImageView android:id="@+id/star9"
-					android:src="@drawable/star9"
-					android:contentDescription="star9"
-					 android:layout_marginStart="202dp"
-					android:layout_marginTop="460dp"
-					android:layout_width="13dp"
-					android:layout_height="13dp" />
-
-				<ImageView android:id="@+id/star10"
-					android:src="@drawable/star10"
-					android:contentDescription="star10"
-					 android:layout_marginStart="222dp"
-					android:layout_marginTop="460dp"
-					android:layout_width="12dp"
-					android:layout_height="13dp" />
-
-				<ImageView android:id="@+id/select_btn"
-					android:src="@drawable/select_btn"
-					android:contentDescription="select_btn"
-					 android:layout_marginStart="218dp"
-					android:layout_marginTop="533dp"
-					android:layout_width="20dp"
-					android:layout_height="20dp" />
-
-				<View android:id="@+id/cappuccino_background"
-					android:background="@drawable/cappuccino_background_shape"
-					 android:layout_marginStart="308dp"
-					android:layout_marginTop="383dp"
-					android:layout_width="116dp"
-					android:layout_height="136dp" />
-
-				<View
-					android:id="@+id/cappuccino_descrip"
-					android:layout_width="182dp"
-					android:layout_height="92dp"
-					android:layout_marginStart="299dp"
-					android:layout_marginTop="446dp"
-					android:background="@drawable/login_background_grey_shape" />
-
-				<TextView android:id="@+id/cappuccino_ek1"
-					android:textStyle="bold"
-					android:textSize="12sp"
-					android:textColor="@color/_5_30_pm_color"
-					android:layout_marginLeft="311dp"
-					android:layout_marginTop="455dp"
-					android:layout_width="91dp"
-					android:layout_height="31dp"
-					android:text="@string/cappuccino_ek1_string"
-					 />
-
-				<TextView
-					android:id="@+id/this_is_a_drink_involve_the_use_of_cream_instead_of_milk__using_non_dairy_milk_substitutes_and_flavoring_with_cinnamon_or_chocolate_powder_"
-					android:layout_width="155dp"
-					android:layout_height="50dp"
-					android:layout_marginLeft="309dp"
-					android:layout_marginTop="475dp"
-					android:text="@string/this_is_a_drink_involve_the_use_of_cream_instead_of_milk__using_non_dairy_milk_substitutes_and_flavoring_with_cinnamon_or_chocolate_powder__string"
-					android:textColor="@color/_5_30_pm_color" />
-
-				<ImageView android:id="@+id/star5"
-					android:src="@drawable/star5"
-					android:contentDescription="star5"
-					 android:layout_marginStart="391dp"
-					android:layout_marginTop="455dp"
-					android:layout_width="10dp"
-					android:layout_height="10dp" />
-
-				<ImageView android:id="@+id/star4"
-					android:src="@drawable/star4"
-					android:contentDescription="star4"
-					 android:layout_marginStart="403dp"
-					android:layout_marginTop="455dp"
-					android:layout_width="10dp"
-					android:layout_height="10dp" />
-
-				<ImageView android:id="@+id/star3"
-					android:src="@drawable/star3"
-					android:contentDescription="star3"
-					 android:layout_marginStart="415dp"
-					android:layout_marginTop="458dp"
-					android:layout_width="10dp"
-					android:layout_height="10dp" />
-
-				<ImageView android:id="@+id/star2"
-					android:src="@drawable/star2"
-					android:contentDescription="star2"
-					 android:layout_marginStart="429dp"
-					android:layout_marginTop="458dp"
-					android:layout_width="10dp"
-					android:layout_height="10dp" />
-
-				<ImageView android:id="@+id/star1"
-					android:src="@drawable/star1"
-					android:contentDescription="star1"
-					 android:layout_marginStart="442dp"
-					android:layout_marginTop="458dp"
-					android:layout_width="10dp"
-					android:layout_height="10dp" />
-
-				<ImageView android:id="@+id/welcome_coffee2_img"
-					android:src="@drawable/welcome_coffee2_img"
-					android:contentDescription="welcome_coffee2_img"
-					 android:layout_marginStart="320dp"
-					android:layout_marginTop="339dp"
-					android:layout_width="116dp"
-					android:layout_height="103dp" />
 
 				<View android:id="@+id/welcome_navigation_bar"
 					android:background="@drawable/welcome_navigation_bar_shape"
@@ -461,6 +246,17 @@
 					android:textColor="@color/_bg__records_ek2_color"
 					android:textSize="14sp"
 					android:textStyle="bold" />
+
+				<ListView
+					android:id="@+id/listView"
+					android:layout_width="411dp"
+					android:layout_height="match_parent"
+					android:layout_above="@+id/order_background"
+					android:layout_below="@+id/coffee"
+					android:layout_alignParentStart="true"
+					android:layout_marginStart="1dp"
+					android:layout_marginTop="13dp"
+					android:layout_marginBottom="235dp" />
 
 			</RelativeLayout>
 
