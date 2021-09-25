@@ -8,6 +8,7 @@ import android.os.Bundle;
 
 
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.TextView;
 import android.widget.ImageView;
 
@@ -40,6 +41,8 @@ public class contact_us_activity extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 
 		super.onCreate(savedInstanceState);
+		// Hide the status bar
+		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		setContentView(R.layout.contact_us);
 
 		// Creating intent object with ACTION_SEND
