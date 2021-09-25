@@ -201,7 +201,7 @@
 					android:layout_height="31dp"
 					android:layout_marginLeft="68dp"
 					android:layout_marginTop="306.5dp"
-					android:text="Card Number:   1234 5678 0987"
+					android:text="Card Number:   "
 					android:textColor="@color/_5_30_pm_color"
 					android:textSize="15sp" />
 
@@ -211,7 +211,7 @@
 					android:layout_height="32dp"
 					android:layout_marginLeft="68dp"
 					android:layout_marginTop="235dp"
-					android:text="Full Name:     Chandur Dissanayake"
+					android:text="Full Name:     "
 					android:textColor="@color/_5_30_pm_color"
 					android:textSize="15sp" />
 
@@ -221,7 +221,7 @@
 					android:layout_height="33.5dp"
 					android:layout_marginLeft="68dp"
 					android:layout_marginTop="374dp"
-					android:text="Quantity:     2"
+					android:text="Quantity:     "
 					android:textColor="@color/_5_30_pm_color"
 					android:textSize="15sp" />
 
@@ -231,7 +231,7 @@
 					android:layout_height="30dp"
 					android:layout_marginLeft="243dp"
 					android:layout_marginTop="375dp"
-					android:text="Price: Rs/- 2500"
+					android:text="Price: "
 					android:textColor="@color/_5_30_pm_color"
 					android:textSize="15sp" />
 
@@ -291,11 +291,11 @@
 
 				<TextView
 					android:id="@+id/rs___25000"
-					android:layout_width="87dp"
-					android:layout_height="24dp"
-					android:layout_marginLeft="272dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="295dp"
 					android:layout_marginTop="561dp"
-					android:text="@string/rs___25000_string"
+					android:text="PAY"
 					android:textColor="@color/_bg__records_ek2_color"
 					android:textSize="12sp"
 					android:textStyle="bold" />
@@ -321,18 +321,6 @@
 					android:textSize="14sp"
 					android:textStyle="bold" />
 
-				<TextView
-					android:id="@+id/total__"
-					android:layout_width="73dp"
-					android:layout_height="25dp"
-					android:layout_gravity="center_horizontal|center"
-					android:layout_marginLeft="197dp"
-					android:layout_marginTop="561dp"
-					android:gravity="center"
-					android:text="@string/total___string"
-					android:textColor="@color/total___color"
-					android:textSize="12sp" />
-
 				<ImageView
 					android:id="@+id/paypal_img"
 					android:layout_width="103dp"
@@ -350,6 +338,50 @@
 					android:layout_marginTop="171dp"
 					android:contentDescription="visa_img"
 					android:src="@drawable/visa_img" />
+
+				<EditText
+					android:id="@+id/type_name"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="220dp"
+					android:layout_marginLeft="140dp"
+					android:layout_marginTop="220dp"
+					android:layout_marginBottom="220dp"
+					android:ems="10"
+					android:inputType="textPersonName" />
+
+				<EditText
+					android:id="@+id/type_cardno"
+					android:layout_width="180dp"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="220dp"
+					android:layout_marginLeft="170dp"
+					android:layout_marginTop="295dp"
+					android:layout_marginBottom="220dp"
+					android:ems="10"
+					android:inputType="textPersonName" />
+
+				<EditText
+					android:id="@+id/type_quantity"
+					android:layout_width="60dp"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="220dp"
+					android:layout_marginLeft="130dp"
+					android:layout_marginTop="355dp"
+					android:layout_marginBottom="220dp"
+					android:ems="10"
+					android:inputType="textPersonName" />
+
+				<EditText
+					android:id="@+id/type_price"
+					android:layout_width="70dp"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="220dp"
+					android:layout_marginLeft="280dp"
+					android:layout_marginTop="355dp"
+					android:layout_marginBottom="220dp"
+					android:ems="10"
+					android:inputType="textPersonName" />
 
 			</RelativeLayout>
 
