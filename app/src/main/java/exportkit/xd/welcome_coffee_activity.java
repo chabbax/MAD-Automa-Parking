@@ -66,6 +66,11 @@ public class welcome_coffee_activity extends Activity {
 	private View order_btn;
 	private TextView order_now;
 
+	// Arrays for items in the shop
+	String title[] = {"Coffee Black","Expresso Coffee","Light Coffee","Cappuccino","Coffee Latte"};
+	String description[] = {"Rs/- 2500","Rs/- 5000","Rs/-4500","Rs/-9000","Rs/-9999"};
+	int image[] = {R.drawable.Black,R.drawable.Expresso,R.drawable.Light,R.drawable.Cappochunio,R.drawable.Latte};
+
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 
