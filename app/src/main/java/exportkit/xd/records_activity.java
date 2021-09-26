@@ -48,7 +48,7 @@ public class records_activity extends Activity {
 		});
 
 
-		// Set listener to the button
+		// Setting listener to the button
 		record_home_logo.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
