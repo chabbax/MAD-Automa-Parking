@@ -1,4 +1,3 @@
-
 package exportkit.xd;
 
 import android.content.ContentValues;
@@ -9,16 +8,11 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import androidx.annotation.Nullable;
 
-import java.text.DateFormat;
-import java.util.ArrayList;
-import java.util.List;
+public class DbHandlerOrder extends SQLiteOpenHelper {
 
-public class OrderDB extends SQLiteOpenHelper {
-
-    // Database configurations
     private static final int VERSION = 1;
-    private static final String DB_NAME = "OrderDB";
-    private static final String TABLE_NAME = "OrderTable";
+    private static final String DB_NAME = "order";
+    private static final String TABLE_NAME = "table";
 
     // Column names
     private static final String ID = "id";
@@ -27,15 +21,14 @@ public class OrderDB extends SQLiteOpenHelper {
     private static final String STARTED = "started";
     private static final String FINISHED = "finished";
 
-    public OrderDB(@Nullable Context context) {
+    public DbHandlerOrder(@Nullable Context context) {
         super(context, DB_NAME, null, VERSION);
     }
 
-    // Creating the database table
     @Override
     public void onCreate(SQLiteDatabase db) {
 
-        String TABLE_CREATE_QUERY = "CREATE TABLE "+TABLE_NAME+" " +
+        String TABLE_CREATE_QUERY = "CREATE TABLE "+TABLE_NAME+"table" +
                 "("
                 +ID+" INTEGER PRIMARY KEY AUTOINCREMENT,"
                 +TITLE + " TEXT,"
@@ -44,14 +37,13 @@ public class OrderDB extends SQLiteOpenHelper {
                 +FINISHED+" TEXT" +
                 ");";
 
-        /* Run the create query  */
         db.execSQL(TABLE_CREATE_QUERY);
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 
-        String DROP_TABLE_QUERY = "DROP TABLE IF EXISTS "+ TABLE_NAME;
+        String DROP_TABLE_QUERY = " DROP TABLE IF EXISTS "+ TABLE_NAME+"table";
         // Drop older table if existed
         db.execSQL(DROP_TABLE_QUERY);
         // Create tables again
@@ -59,13 +51,11 @@ public class OrderDB extends SQLiteOpenHelper {
     }
 
     // Add a single order
-    public void addOrder(Order create){
-        // Write data into the database
+    public void addCreate(Order create){
         SQLiteDatabase sqLiteDatabase = getWritableDatabase();
-        // Structure and bundle data into object
+
         ContentValues contentValues = new ContentValues();
 
-        // USing methods from the modal class
         contentValues.put(TITLE,create.getTitle());
         contentValues.put(DESCRIPTION, create.getDescription());
         contentValues.put(STARTED,create.getStarted());
@@ -76,4 +66,14 @@ public class OrderDB extends SQLiteOpenHelper {
         // close database
         sqLiteDatabase.close();
     }
+
+    // Count todo table records
+    public int countOrder(){
+        SQLiteDatabase db = getReadableDatabase();
+        String query = "SELECT * FROM "+ TABLE_NAME+"table";
+
+        Cursor cursor = db.rawQuery(query,null);
+        return cursor.getCount();
+    }
+
 }

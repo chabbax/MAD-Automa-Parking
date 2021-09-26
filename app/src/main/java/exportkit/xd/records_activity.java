@@ -24,6 +24,7 @@ public class records_activity extends Activity {
 	private ImageView record_checkout_logo;
 	private ImageView record_profile_logo;
 	Context context;
+	private DbHandlerOrder dbHandler;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -31,14 +32,21 @@ public class records_activity extends Activity {
 		super.onCreate(savedInstanceState);
 		// Hide the status bar
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-		setContentView(R.layout.single_order);
+		setContentView(R.layout.records);
+		context = this;
 
 		// Link java button with xml button
 		record_home_logo = findViewById(R.id.record_home_logo);
+
+		dbHandler = new DbHandlerOrder(context);
 		add = findViewById(R.id.create_order_btn);
 		listView = findViewById(R.id.record_list);
 		count = findViewById(R.id.number);
 		context = this;
+
+		// Get order counts from the table
+		int countOrder = dbHandler.countOrder();
+		count.setText("You have "+countOrder+" orders");
 
 		add.setOnClickListener(new View.OnClickListener() {
 			@Override
@@ -46,6 +54,13 @@ public class records_activity extends Activity {
 				startActivity(new Intent(context,checkout_activity.class));
 			}
 		});
+
+
+
+
+
+
+
 
 
 		// Setting listener to the button
@@ -88,10 +103,6 @@ public class records_activity extends Activity {
 				startActivity(i);
 			}
 		});
-
-
-
-
 	}
 }
 	

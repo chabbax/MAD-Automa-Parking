@@ -282,7 +282,7 @@
 					android:src="@drawable/barcode" />
 
 				<View
-					android:id="@+id/total_amount"
+					android:id="@+id/pay"
 					android:layout_width="94dp"
 					android:layout_height="28dp"
 					android:layout_marginStart="257dp"
@@ -384,8 +384,6 @@
 					android:inputType="textPersonName" />
 
 			</RelativeLayout>
-
-
 
 
 

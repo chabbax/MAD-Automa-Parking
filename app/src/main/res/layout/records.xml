@@ -1,8 +1,8 @@
 <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent" android:layout_height="wrap_content" tools:context=".records_activity">
 
-	<ScrollView android:id="@+id/records" 
-		android:layout_width="wrap_content" 
+	<ScrollView android:id="@+id/record_history"
+		android:layout_width="wrap_content"
 		android:layout_height="match_parent" >
 
 		<RelativeLayout android:id="@+id/content_container" 
@@ -15,14 +15,6 @@
 				android:layout_height="wrap_content"
 				android:layout_marginStart="0dp"
 				android:layout_marginTop="0dp">
-
-				<View
-					android:id="@+id/_bg__records_ek2"
-					android:layout_width="411dp"
-					android:layout_height="823dp"
-					android:layout_marginStart="0dp"
-					android:layout_marginTop="0dp"
-					android:background="@drawable/_bg__records_ek2_shape" />
 
 				<View
 					android:id="@+id/circle18"
@@ -195,24 +187,15 @@
 
 				<ListView
 					android:id="@+id/record_list"
-					android:layout_width="377dp"
+					android:layout_width="match_parent"
 					android:layout_height="431dp"
 					android:layout_below="@+id/purchase_history"
-					android:layout_alignEnd="@+id/_bg__records_ek2"
 					android:layout_alignParentStart="true"
-					android:layout_marginStart="0dp"
-					android:layout_marginLeft="43dp"
-					android:layout_marginTop="10dp"
-					android:layout_marginEnd="34dp" />
-
+					android:layout_marginStart="20dp"
+					android:layout_marginTop="8dp"
+					android:layout_marginEnd="14dp" />
 			</RelativeLayout>
 
-
-
-
-
-
 		</RelativeLayout>
-
 	</ScrollView>
 </HorizontalScrollView>

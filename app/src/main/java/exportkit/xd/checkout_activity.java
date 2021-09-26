@@ -11,20 +11,18 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.TextView;
 
 public class checkout_activity extends Activity {
 
 	// Create button object
 	private EditText title, desc;
 	private View add;
-	private OrderDB DBorder;
+	private DbHandlerOrder dbHandler ;
 	private Context context;
 	private ImageView profile_img2;
 	private ImageView checkout_home_logo;
 	private ImageView checkout_history_logo;
 	private ImageView checkout_profile_logo;
-	private View total_amount;
 	private View cancle_btn;
 
 	@Override
@@ -38,11 +36,10 @@ public class checkout_activity extends Activity {
 		// Link java button with xml button
 		title = findViewById(R.id.type_name);
 		desc = findViewById(R.id.type_cardno);
-		add = findViewById(R.id.total_amount);
-		total_amount = findViewById(R.id.total_amount);
+		add = findViewById(R.id.pay);
 
 		context = this;
-		DBorder = new OrderDB(context);
+		dbHandler  = new DbHandlerOrder(context);
 
 		// Set listener to the button
 		add.setOnClickListener(new View.OnClickListener() {
@@ -52,22 +49,10 @@ public class checkout_activity extends Activity {
 				String userDesc = desc.getText().toString();
 				long started = System.currentTimeMillis();
 
-				// Communication with model class to store data
 				Order create = new Order(userTitle,userDesc,started,0);
-				DBorder.addOrder(create);
+				dbHandler.addCreate(create);
 
 				startActivity(new Intent(context,records_activity.class));
-			}
-		});
-
-		// Set listener to the button
-		total_amount.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				// Create intent
-				Intent i = new Intent(getApplicationContext(),records_activity.class);
-				// Launch next activity
-				startActivity(i);
 			}
 		});
 
