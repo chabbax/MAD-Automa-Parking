@@ -10,9 +10,10 @@
         android:layout_width="328dp"
         android:layout_height="123dp"
         android:background="@drawable/login_background_grey_shape"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="0dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/record_title"
@@ -21,9 +22,11 @@
         android:textColor="@color/_5_30_pm_color"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="@+id/record__background_2"
+        app:layout_constraintEnd_toEndOf="@+id/record__background_2"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="@+id/record__background_2"
         app:layout_constraintTop_toTopOf="@+id/record__background_2"
-        app:layout_constraintVertical_bias="0.175"
-        tools:layout_editor_absoluteX="67dp" />
+        app:layout_constraintVertical_bias="0.175" />
 
     <TextView
         android:id="@+id/record_description"
@@ -32,9 +35,11 @@
         android:textColor="@color/_5_30_pm_color"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="@+id/record__background_2"
+        app:layout_constraintEnd_toEndOf="@+id/record__background_2"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="@+id/record__background_2"
         app:layout_constraintTop_toTopOf="@+id/record__background_2"
         app:layout_constraintVertical_bias="0.527"
-        tools:layout_editor_absoluteX="67dp"
         tools:ignore="MissingConstraints" />
 
     <View
@@ -43,8 +48,11 @@
         android:layout_height="31dp"
         android:background="@drawable/record_delete_btn_shape"
         app:layout_constraintBottom_toBottomOf="@+id/record__background_2"
+        app:layout_constraintEnd_toEndOf="@+id/record__background_2"
+        app:layout_constraintHorizontal_bias="0.887"
+        app:layout_constraintStart_toStartOf="@+id/record__background_2"
         app:layout_constraintTop_toBottomOf="@+id/record_edit_btn2"
-        tools:layout_editor_absoluteX="247dp" />
+        app:layout_constraintVertical_bias="0.513" />
 
     <TextView
         android:id="@+id/delete_order2"
@@ -56,8 +64,12 @@
         android:textColor="@color/_bg__records_ek2_color"
         android:textSize="13sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="236dp"
-        tools:layout_editor_absoluteY="79dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/record__background_2"
+        app:layout_constraintHorizontal_bias="0.919"
+        app:layout_constraintStart_toStartOf="@+id/record__background_2"
+        app:layout_constraintTop_toTopOf="@+id/record_delete_btn2"
+        app:layout_constraintVertical_bias="0.193" />
 
     <View
         android:id="@+id/record_edit_btn2"
@@ -65,22 +77,28 @@
         android:layout_height="28dp"
         android:background="@drawable/record_edit_btn_shape"
         app:layout_constraintBottom_toBottomOf="@+id/record__background_2"
+        app:layout_constraintEnd_toEndOf="@+id/record__background_2"
+        app:layout_constraintHorizontal_bias="0.887"
+        app:layout_constraintStart_toStartOf="@+id/record__background_2"
         app:layout_constraintTop_toTopOf="@+id/record__background_2"
-        app:layout_constraintVertical_bias="0.284"
-        tools:layout_editor_absoluteX="247dp" />
+        app:layout_constraintVertical_bias="0.284" />
 
     <TextView
         android:id="@+id/edit_bill3"
-        android:layout_width="113dp"
-        android:layout_height="38dp"
+        android:layout_width="116dp"
+        android:layout_height="25dp"
         android:layout_gravity="center_horizontal|center"
         android:gravity="center"
         android:text="@string/edit_bill_string"
         android:textColor="#4E342E"
         android:textSize="14sp"
-        tools:ignore="TextContrastCheck"
-        tools:layout_editor_absoluteX="240dp"
-        tools:layout_editor_absoluteY="21dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/record__background_2"
+        app:layout_constraintHorizontal_bias="0.91"
+        app:layout_constraintStart_toStartOf="@+id/record__background_2"
+        app:layout_constraintTop_toTopOf="@+id/record_edit_btn2"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TextContrastCheck" />
 
     <TextView
         android:id="@+id/more_info_____2"
@@ -90,7 +108,9 @@
         android:textColor="#2962FF"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@+id/record__background_2"
+        app:layout_constraintEnd_toEndOf="@+id/record__background_2"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="@+id/record__background_2"
         app:layout_constraintTop_toTopOf="@+id/record__background_2"
-        app:layout_constraintVertical_bias="0.816"
-        tools:layout_editor_absoluteX="89dp" />
+        app:layout_constraintVertical_bias="0.814" />
 </androidx.constraintlayout.widget.ConstraintLayout>

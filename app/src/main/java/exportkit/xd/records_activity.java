@@ -9,7 +9,6 @@ import android.os.Bundle;
 
 import android.view.View;
 import android.view.WindowManager;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -18,8 +17,8 @@ public class records_activity extends Activity {
 
 	// Create button object
 	private View add;
-	private ListView listView;
-	private TextView count;
+	public ListView listView;
+	public TextView count;
 	private ImageView profile_img3;
 	private ImageView record_home_logo;
 	private ImageView record_checkout_logo;

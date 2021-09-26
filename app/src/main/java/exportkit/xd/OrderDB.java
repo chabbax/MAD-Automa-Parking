@@ -17,8 +17,8 @@ public class OrderDB extends SQLiteOpenHelper {
 
     // Database configurations
     private static final int VERSION = 1;
-    private static final String DB_NAME = "todo";
-    private static final String TABLE_NAME = "todo";
+    private static final String DB_NAME = "OrderDB";
+    private static final String TABLE_NAME = "OrderTable";
 
     // Column names
     private static final String ID = "id";
@@ -56,5 +56,24 @@ public class OrderDB extends SQLiteOpenHelper {
         db.execSQL(DROP_TABLE_QUERY);
         // Create tables again
         onCreate(db);
+    }
+
+    // Add a single order
+    public void addOrder(Order create){
+        // Write data into the database
+        SQLiteDatabase sqLiteDatabase = getWritableDatabase();
+        // Structure and bundle data into object
+        ContentValues contentValues = new ContentValues();
+
+        // USing methods from the modal class
+        contentValues.put(TITLE,create.getTitle());
+        contentValues.put(DESCRIPTION, create.getDescription());
+        contentValues.put(STARTED,create.getStarted());
+        contentValues.put(FINISHED,create.getFinished());
+
+        //save to table
+        sqLiteDatabase.insert(TABLE_NAME,null,contentValues);
+        // close database
+        sqLiteDatabase.close();
     }
 }

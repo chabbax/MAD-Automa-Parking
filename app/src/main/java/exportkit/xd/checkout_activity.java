@@ -2,6 +2,7 @@
 package exportkit.xd;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 
@@ -17,6 +18,8 @@ public class checkout_activity extends Activity {
 	// Create button object
 	private EditText title, desc;
 	private View add;
+	private OrderDB DBorder;
+	private Context context;
 	private ImageView profile_img2;
 	private ImageView checkout_home_logo;
 	private ImageView checkout_history_logo;
@@ -38,6 +41,24 @@ public class checkout_activity extends Activity {
 		add = findViewById(R.id.total_amount);
 		total_amount = findViewById(R.id.total_amount);
 
+		context = this;
+		DBorder = new OrderDB(context);
+
+		// Set listener to the button
+		add.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				String userTitle = title.getText().toString();
+				String userDesc = desc.getText().toString();
+				long started = System.currentTimeMillis();
+
+				// Communication with model class to store data
+				Order create = new Order(userTitle,userDesc,started,0);
+				DBorder.addOrder(create);
+
+				startActivity(new Intent(context,records_activity.class));
+			}
+		});
 
 		// Set listener to the button
 		total_amount.setOnClickListener(new View.OnClickListener() {
