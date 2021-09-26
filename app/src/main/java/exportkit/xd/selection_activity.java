@@ -16,6 +16,7 @@ public class selection_activity extends Activity {
 	// Create button object
 	private View selection_send_mail;
 	private View order_coffee_btn;
+	private View selection_profile_pic;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -48,6 +49,17 @@ public class selection_activity extends Activity {
 			public void onClick(View v) {
 				// Create intent
 				Intent i = new Intent(getApplicationContext(),contact_us_activity.class);
+				// Launch next activity
+				startActivity(i);
+			}
+		});
+
+		selection_profile_pic = findViewById(R.id.selection_profile_pic);
+		selection_profile_pic.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				// Create intent
+				Intent i = new Intent(getApplicationContext(),profile_activity.class);
 				// Launch next activity
 				startActivity(i);
 			}

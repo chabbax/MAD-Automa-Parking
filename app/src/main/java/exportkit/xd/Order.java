@@ -1,19 +1,14 @@
 package exportkit.xd;
 
-// This is the model class which temporary stores all database values and also returns the values when needed
 public class Order {
-
-    // Variables
     private int id;
     private String title, description;
     private long started, finished;
 
-    // Constructor
     public Order(){
 
     }
 
-    // Overloaded constructor with id
     public Order(int id, String title, String description, long started, long finished) {
         this.id = id;
         this.title = title;
@@ -22,7 +17,6 @@ public class Order {
         this.finished = finished;
     }
 
-    // Overloaded constructor without id
     public Order(String title, String description, long started, long finished) {
         this.title = title;
         this.description = description;
@@ -70,4 +64,3 @@ public class Order {
         this.finished = finished;
     }
 }
-

@@ -9,80 +9,86 @@
 			android:layout_width="wrap_content" 
 			android:layout_height="wrap_content" >
 
-			<RelativeLayout android:id="@+id/page_sign_up_ek1"
-				android:layout_marginTop="0dp"
-				android:layout_marginStart="0dp"
+			<RelativeLayout
+				android:id="@+id/page_sign_up_ek1"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
-				>
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp">
 
-				<View android:id="@+id/_bg__sign_up_ek2"
-					android:background="@drawable/_bg__sign_up_ek2_shape"
-					 android:layout_marginStart="0dp"
-					android:layout_marginTop="0dp"
+				<View
+					android:id="@+id/_bg__sign_up_ek2"
 					android:layout_width="411dp"
-					android:layout_height="823dp" />
+					android:layout_height="823dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/_bg__sign_up_ek2_shape" />
 
-				<View android:id="@+id/circle4"
-					android:background="@drawable/circle4_shape"
-					 android:alpha="0.60000002384186"
-					 android:layout_marginStart="285dp"
-					android:layout_marginTop="-75dp"
+				<View
+					android:id="@+id/circle4"
 					android:layout_width="199dp"
-					android:layout_height="199dp" />
+					android:layout_height="199dp"
+					android:layout_marginStart="285dp"
+					android:layout_marginTop="-75dp"
+					android:alpha="0.60000002384186"
+					android:background="@drawable/circle4_shape" />
 
-				<View android:id="@+id/circle3"
-					android:background="@drawable/circle3_shape"
-					 android:alpha="0.40000000596046"
-					 android:layout_marginStart="266dp"
-					android:layout_marginTop="-61dp"
+				<View
+					android:id="@+id/circle3"
 					android:layout_width="212dp"
-					android:layout_height="205dp" />
+					android:layout_height="205dp"
+					android:layout_marginStart="266dp"
+					android:layout_marginTop="-61dp"
+					android:alpha="0.40000000596046"
+					android:background="@drawable/circle3_shape" />
 
-				<TextView android:id="@+id/_5_30_pm_ek8"
-					android:textSize="15sp"
-					android:textColor="@color/_5_30_pm_color"
-					android:layout_marginLeft="24dp"
-					android:layout_marginTop="16dp"
+				<TextView
+					android:id="@+id/_5_30_pm_ek8"
 					android:layout_width="72dp"
 					android:layout_height="24.5dp"
+					android:layout_marginLeft="24dp"
+					android:layout_marginTop="16dp"
 					android:text="@string/_5_30_pm_ek8_string"
-					 />
+					android:textColor="@color/_5_30_pm_color"
+					android:textSize="15sp" />
 
-				<ImageView android:id="@+id/battery2"
-					android:src="@drawable/battery2"
-					android:contentDescription="battery2"
-					 android:layout_marginStart="375dp"
-					android:layout_marginTop="19dp"
+				<ImageView
+					android:id="@+id/battery2"
 					android:layout_width="20dp"
-					android:layout_height="11dp" />
+					android:layout_height="11dp"
+					android:layout_marginStart="375dp"
+					android:layout_marginTop="19dp"
+					android:contentDescription="battery2"
+					android:src="@drawable/battery2" />
 
-				<ImageView android:id="@+id/signal2"
-					android:src="@drawable/signal2"
-					android:contentDescription="signal2"
-					 android:layout_marginStart="350dp"
-					android:layout_marginTop="18dp"
+				<ImageView
+					android:id="@+id/signal2"
 					android:layout_width="14dp"
-					android:layout_height="11dp" />
+					android:layout_height="11dp"
+					android:layout_marginStart="350dp"
+					android:layout_marginTop="18dp"
+					android:contentDescription="signal2"
+					android:src="@drawable/signal2" />
 
-				<TextView android:id="@+id/sign_up_ek3"
-					android:textStyle="bold"
-					android:textSize="25sp"
-					android:textColor="@color/circle20_color"
-					android:layout_marginLeft="60dp"
-					android:layout_marginTop="77dp"
+				<TextView
+					android:id="@+id/sign_up_ek3"
 					android:layout_width="121dp"
 					android:layout_height="55.5dp"
+					android:layout_marginLeft="60dp"
+					android:layout_marginTop="77dp"
 					android:text="@string/sign_up_ek3_string"
-					 />
+					android:textColor="@color/circle20_color"
+					android:textSize="25sp"
+					android:textStyle="bold" />
 
-				<ImageView android:id="@+id/wifi2"
-					android:src="@drawable/wifi2"
-					android:contentDescription="wifi2"
-					 android:layout_marginStart="329dp"
-					android:layout_marginTop="19dp"
+				<ImageView
+					android:id="@+id/wifi2"
 					android:layout_width="14dp"
-					android:layout_height="11dp" />
+					android:layout_height="11dp"
+					android:layout_marginStart="329dp"
+					android:layout_marginTop="19dp"
+					android:contentDescription="wifi2"
+					android:src="@drawable/wifi2" />
 
 				<View
 					android:id="@+id/background_grey"
@@ -93,30 +99,30 @@
 					android:alpha="0.52999997138977"
 					android:background="@drawable/background_grey_shape" />
 
-				<TextView android:id="@+id/register_with_us_"
-					android:textStyle="bold"
-					android:layout_gravity="center_horizontal|center"
-					android:gravity="center"
-					android:textSize="20sp"
-					android:textColor="@color/_5_30_pm_color"
-					android:layout_marginLeft="45dp"
-					android:layout_marginTop="240dp"
+				<TextView
+					android:id="@+id/register_with_us_"
 					android:layout_width="330dp"
 					android:layout_height="46dp"
-					android:text="@string/register_with_us__string"
-					 />
-
-				<TextView android:id="@+id/your_information_is_safe_with_us_ek1"
 					android:layout_gravity="center_horizontal|center"
-					android:gravity="center"
-					android:textSize="15sp"
-					android:textColor="@color/_5_30_pm_color"
 					android:layout_marginLeft="45dp"
-					android:layout_marginTop="272dp"
+					android:layout_marginTop="240dp"
+					android:gravity="center"
+					android:text="@string/register_with_us__string"
+					android:textColor="@color/_5_30_pm_color"
+					android:textSize="20sp"
+					android:textStyle="bold" />
+
+				<TextView
+					android:id="@+id/your_information_is_safe_with_us_ek1"
 					android:layout_width="322dp"
 					android:layout_height="35.5dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="45dp"
+					android:layout_marginTop="272dp"
+					android:gravity="center"
 					android:text="@string/your_information_is_safe_with_us_ek1_string"
-					 />
+					android:textColor="@color/_5_30_pm_color"
+					android:textSize="15sp" />
 
 				<TextView
 					android:id="@+id/do_you_already_have_an_account__login"
@@ -138,26 +144,29 @@
 					android:layout_marginTop="663dp"
 					android:background="@drawable/signup_btn_shape" />
 
-				<View android:id="@+id/signin_name_txt_feild"
-					android:background="@drawable/signin_name_txt_feild_shape"
-					 android:layout_marginStart="48dp"
+				<View
+					android:id="@+id/signin_name_txt_feild"
+					android:layout_width="315dp"
+					android:layout_height="51dp"
+					android:layout_marginStart="48dp"
 					android:layout_marginTop="340dp"
-					android:layout_width="315dp"
-					android:layout_height="51dp" />
+					android:background="@drawable/signin_name_txt_feild_shape" />
 
-				<View android:id="@+id/signin_email_txt_feild"
-					android:background="@drawable/signin_email_txt_feild_shape"
-					 android:layout_marginStart="45dp"
+				<View
+					android:id="@+id/signin_email_txt_feild"
+					android:layout_width="315dp"
+					android:layout_height="51dp"
+					android:layout_marginStart="45dp"
 					android:layout_marginTop="412dp"
-					android:layout_width="315dp"
-					android:layout_height="51dp" />
+					android:background="@drawable/signin_email_txt_feild_shape" />
 
-				<View android:id="@+id/signin_password_txt_feild"
-					android:background="@drawable/signin_password_txt_feild_shape"
-					 android:layout_marginStart="48dp"
-					android:layout_marginTop="484dp"
+				<View
+					android:id="@+id/signin_password_txt_feild"
 					android:layout_width="315dp"
-					android:layout_height="51dp" />
+					android:layout_height="51dp"
+					android:layout_marginStart="48dp"
+					android:layout_marginTop="484dp"
+					android:background="@drawable/signin_password_txt_feild_shape" />
 
 				<View
 					android:id="@+id/signin_confirm_password_txt_feild"
@@ -180,53 +189,85 @@
 					android:textSize="20sp"
 					android:textStyle="bold" />
 
-				<TextView
-					android:id="@+id/enter_your_email_ek1"
-					android:layout_width="126dp"
-					android:layout_height="29dp"
-					android:layout_gravity="center_horizontal|center"
-					android:layout_marginLeft="61dp"
-					android:layout_marginTop="425dp"
-					android:gravity="center"
-					android:text="@string/enter_your_email_ek1_string"
-					android:textColor="@color/_5_30_pm_color"
-					android:textSize="14sp" />
-
-				<TextView
-					android:id="@+id/enter_full_name"
-					android:layout_width="128dp"
+				<EditText
+					android:id="@+id/editTextTextPersonName"
+					android:layout_width="258dp"
 					android:layout_height="wrap_content"
-					android:layout_gravity="center_horizontal|center"
-					android:layout_marginLeft="61dp"
-					android:layout_marginTop="356dp"
-					android:gravity="center"
-					android:text="@string/enter_full_name_string"
-					android:textColor="@color/_5_30_pm_color"
-					android:textSize="14sp" />
+					android:layout_alignParentStart="true"
+					android:layout_alignParentTop="true"
+					android:layout_alignParentEnd="true"
+					android:layout_marginStart="76dp"
+					android:layout_marginTop="342dp"
+					android:layout_marginEnd="150dp"
+					android:ems="10"
+					android:inputType="textPersonName"
+					android:text="Name" />
 
-				<TextView
-					android:id="@+id/enter_password_ek1"
-					android:layout_width="130dp"
-					android:layout_height="29dp"
-					android:layout_gravity="center_horizontal|center"
-					android:layout_marginLeft="61dp"
-					android:layout_marginTop="500dp"
-					android:gravity="center"
-					android:text="@string/enter_password_ek1_string"
-					android:textColor="@color/_5_30_pm_color"
-					android:textSize="14sp" />
-
-				<TextView
-					android:id="@+id/confirm_password"
-					android:layout_width="128dp"
+				<EditText
+					android:id="@+id/editTextTextPersonName2"
+					android:layout_width="258dp"
 					android:layout_height="wrap_content"
-					android:layout_gravity="center_horizontal|center"
-					android:layout_marginLeft="64dp"
-					android:layout_marginTop="572dp"
-					android:gravity="center"
-					android:text="@string/confirm_password_string"
-					android:textColor="@color/_5_30_pm_color"
-					android:textSize="14sp" />
+					android:layout_below="@+id/signin_name_txt_feild"
+					android:layout_alignParentStart="true"
+					android:layout_alignParentEnd="true"
+					android:layout_marginStart="74dp"
+					android:layout_marginTop="25dp"
+					android:layout_marginEnd="152dp"
+					android:ems="10"
+					android:inputType="textPersonName"
+					android:text="Email" />
+
+				<EditText
+					android:id="@+id/editTextTextPassword"
+					android:layout_width="184dp"
+					android:layout_height="wrap_content"
+					android:layout_below="@+id/signin_email_txt_feild"
+					android:layout_alignParentStart="true"
+					android:layout_alignParentEnd="true"
+					android:layout_marginStart="147dp"
+					android:layout_marginTop="24dp"
+					android:layout_marginEnd="154dp"
+					android:ems="10"
+					android:inputType="textPassword" />
+
+				<EditText
+					android:id="@+id/editTextTextPassword2"
+					android:layout_width="184dp"
+					android:layout_height="wrap_content"
+					android:layout_below="@+id/editTextTextPassword"
+					android:layout_alignParentStart="true"
+					android:layout_alignParentEnd="true"
+					android:layout_marginStart="147dp"
+					android:layout_marginTop="27dp"
+					android:layout_marginEnd="154dp"
+					android:ems="10"
+					android:inputType="textPassword" />
+
+				<TextView
+					android:id="@+id/textView"
+					android:layout_width="100dp"
+					android:layout_height="27dp"
+					android:layout_below="@+id/signin_email_txt_feild"
+					android:layout_alignParentStart="true"
+					android:layout_alignParentEnd="true"
+					android:layout_marginStart="69dp"
+					android:layout_marginTop="34dp"
+					android:layout_marginEnd="322dp"
+					android:text="Password"
+					android:textSize="16sp" />
+
+				<TextView
+					android:id="@+id/textView2"
+					android:layout_width="100dp"
+					android:layout_height="27dp"
+					android:layout_below="@+id/signin_password_txt_feild"
+					android:layout_alignParentStart="true"
+					android:layout_alignParentEnd="true"
+					android:layout_marginStart="64dp"
+					android:layout_marginTop="36dp"
+					android:layout_marginEnd="327dp"
+					android:text="Password"
+					android:textSize="16sp" />
 
 			</RelativeLayout>
 

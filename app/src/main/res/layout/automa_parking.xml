@@ -93,20 +93,20 @@
 				<TextView
 					android:id="@+id/automa_parking_is_an_app_which_has_the_capability_of_showing_empty_parking_slots_after_the_pruchase_of_a_ticket_or_a_booking_and_with_our_added_innovation_of_a_coffee_delivery_service_and_a_car_wash_"
 					android:layout_width="328dp"
-					android:layout_height="156.5dp"
+					android:layout_height="110dp"
 					android:layout_marginLeft="45dp"
 					android:layout_marginTop="444dp"
 					android:text="@string/automa_parking_is_an_app_which_has_the_capability_of_showing_empty_parking_slots_after_the_pruchase_of_a_ticket_or_a_booking_and_with_our_added_innovation_of_a_coffee_delivery_service_and_a_car_wash__string"
 					android:textColor="@color/_5_30_pm_color"
-					android:textSize="15sp" />
+					android:textSize="16sp" />
 
 				<TextView
 					android:id="@+id/accept_our_terms___conditions"
-					android:layout_width="312dp"
-					android:layout_height="30dp"
+					android:layout_width="301dp"
+					android:layout_height="32dp"
 					android:layout_gravity="center_horizontal|center"
 					android:layout_marginLeft="56dp"
-					android:layout_marginTop="703dp"
+					android:layout_marginTop="629dp"
 					android:gravity="center"
 					android:text="@string/accept_our_terms___conditions_string"
 					android:textColor="@color/_5_30_pm_color"
@@ -117,7 +117,7 @@
 					android:layout_width="315dp"
 					android:layout_height="51dp"
 					android:layout_marginStart="44dp"
-					android:layout_marginTop="642dp"
+					android:layout_marginTop="570dp"
 					android:background="@drawable/start_btn_shape" />
 
 				<TextView
@@ -126,7 +126,7 @@
 					android:layout_height="wrap_content"
 					android:layout_gravity="center_horizontal|center"
 					android:layout_marginLeft="134dp"
-					android:layout_marginTop="653dp"
+					android:layout_marginTop="580dp"
 					android:gravity="center"
 					android:text="@string/lets_start__ek1_string"
 					android:textColor="@color/_bg__records_ek2_color"
@@ -147,7 +147,7 @@
 					android:layout_width="20dp"
 					android:layout_height="18dp"
 					android:layout_marginStart="49dp"
-					android:layout_marginTop="707dp"
+					android:layout_marginTop="635dp"
 					android:background="@drawable/tick_shape" />
 
 				<ImageView
@@ -155,7 +155,7 @@
 					android:layout_width="12dp"
 					android:layout_height="14dp"
 					android:layout_marginStart="53dp"
-					android:layout_marginTop="711dp"
+					android:layout_marginTop="635dp"
 					android:contentDescription="checkbox"
 					android:src="@drawable/checkbox" />
 

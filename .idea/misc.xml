@@ -3,18 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Chandur/AndroidStudioProjects/Automa-Parking/app/src/main/res/layout/activity_add_to_do.xml" value="0.2" />
+        <entry key="..\:/Users/Chandur/AndroidStudioProjects/Automa-Parking/app/src/main/res/layout/activity_edit_to_do.xml" value="0.2" />
+        <entry key="..\:/Users/Chandur/AndroidStudioProjects/Automa-Parking/app/src/main/res/layout/activity_main.xml" value="0.15902777777777777" />
         <entry key="..\:/Users/Chandur/AndroidStudioProjects/Automa-Parking/app/src/main/res/layout/activity_update.xml" value="0.2" />
         <entry key="..\:/Users/Chandur/AndroidStudioProjects/Automa-Parking/app/src/main/res/layout/activity_update_order.xml" value="0.16944444444444445" />
-        <entry key="..\:/Users/Chandur/AndroidStudioProjects/Automa-Parking/app/src/main/res/layout/automa_parking.xml" value="0.264" />
+        <entry key="..\:/Users/Chandur/AndroidStudioProjects/Automa-Parking/app/src/main/res/layout/automa_parking.xml" value="0.176" />
         <entry key="..\:/Users/Chandur/AndroidStudioProjects/Automa-Parking/app/src/main/res/layout/checkout.xml" value="0.176" />
         <entry key="..\:/Users/Chandur/AndroidStudioProjects/Automa-Parking/app/src/main/res/layout/contact_us.xml" value="0.2" />
         <entry key="..\:/Users/Chandur/AndroidStudioProjects/Automa-Parking/app/src/main/res/layout/list_view.xml" value="0.2" />
         <entry key="..\:/Users/Chandur/AndroidStudioProjects/Automa-Parking/app/src/main/res/layout/login.xml" value="0.264" />
-        <entry key="..\:/Users/Chandur/AndroidStudioProjects/Automa-Parking/app/src/main/res/layout/profile.xml" value="0.264" />
+        <entry key="..\:/Users/Chandur/AndroidStudioProjects/Automa-Parking/app/src/main/res/layout/profile.xml" value="0.2" />
         <entry key="..\:/Users/Chandur/AndroidStudioProjects/Automa-Parking/app/src/main/res/layout/records.xml" value="0.176" />
         <entry key="..\:/Users/Chandur/AndroidStudioProjects/Automa-Parking/app/src/main/res/layout/selection.xml" value="0.264" />
         <entry key="..\:/Users/Chandur/AndroidStudioProjects/Automa-Parking/app/src/main/res/layout/sign_up.xml" value="0.2" />
         <entry key="..\:/Users/Chandur/AndroidStudioProjects/Automa-Parking/app/src/main/res/layout/single_order.xml" value="0.264" />
+        <entry key="..\:/Users/Chandur/AndroidStudioProjects/Automa-Parking/app/src/main/res/layout/single_todo.xml" value="0.1545138888888889" />
         <entry key="..\:/Users/Chandur/AndroidStudioProjects/Automa-Parking/app/src/main/res/layout/start.xml" value="0.264" />
         <entry key="..\:/Users/Chandur/AndroidStudioProjects/Automa-Parking/app/src/main/res/layout/update.xml" value="0.16006944444444443" />
         <entry key="..\:/Users/Chandur/AndroidStudioProjects/Automa-Parking/app/src/main/res/layout/welcome_coffee.xml" value="0.2" />

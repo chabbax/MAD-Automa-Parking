@@ -273,7 +273,7 @@
 					android:layout_marginLeft="169dp"
 					android:layout_marginTop="526dp"
 					android:gravity="center"
-					android:text="@string/xxxxxxxxxxxxx_string"
+					android:text="xxx"
 					android:textColor="@color/_5_30_pm_color"
 					android:textSize="14sp" />
 
@@ -285,7 +285,7 @@
 					android:layout_marginLeft="164dp"
 					android:layout_marginTop="458dp"
 					android:gravity="center"
-					android:text="@string/timmy_gmail_com_string"
+					android:text="tom@gmail.com"
 					android:textColor="@color/_5_30_pm_color"
 					android:textSize="14sp" />
 

@@ -3,26 +3,21 @@
     package="exportkit.xd">
 
     <application
+        android:label="AutomaParking"
         android:allowBackup="true"
-        android:label="@string/app_name"
         android:roundIcon="@mipmap/logo"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".update"
-            android:exported="true" />
-        <activity
-            android:name=".automa_parking_activity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:exported="true"
-            android:label="Automa Parking">
+        <activity android:name=".EditOrder"></activity>
+        <activity android:name=".AddOrder" />
+        <activity android:name=".Records" />
+        <activity android:name=".automa_parking_activity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".records_activity" />
-        <activity android:name=".checkout_activity" />
         <activity android:name=".welcome_coffee_activity" />
         <activity android:name=".start_activity" />
         <activity android:name=".selection_activity" />
@@ -30,6 +25,7 @@
         <activity android:name=".profile_activity" />
         <activity android:name=".login_activity" />
         <activity android:name=".sign_up_activity" />
+
     </application>
 
 </manifest>
