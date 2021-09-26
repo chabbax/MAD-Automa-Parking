@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Chandur/AndroidStudioProjects/Automa-Parking/app/src/main/res/layout/activity_update_order.xml" value="0.16944444444444445" />
         <entry key="..\:/Users/Chandur/AndroidStudioProjects/Automa-Parking/app/src/main/res/layout/automa_parking.xml" value="0.264" />
         <entry key="..\:/Users/Chandur/AndroidStudioProjects/Automa-Parking/app/src/main/res/layout/checkout.xml" value="0.264" />
         <entry key="..\:/Users/Chandur/AndroidStudioProjects/Automa-Parking/app/src/main/res/layout/contact_us.xml" value="0.2" />
@@ -13,7 +14,9 @@
         <entry key="..\:/Users/Chandur/AndroidStudioProjects/Automa-Parking/app/src/main/res/layout/selection.xml" value="0.264" />
         <entry key="..\:/Users/Chandur/AndroidStudioProjects/Automa-Parking/app/src/main/res/layout/sign_up.xml" value="0.2" />
         <entry key="..\:/Users/Chandur/AndroidStudioProjects/Automa-Parking/app/src/main/res/layout/start.xml" value="0.264" />
+        <entry key="..\:/Users/Chandur/AndroidStudioProjects/Automa-Parking/app/src/main/res/layout/update.xml" value="0.16006944444444443" />
         <entry key="..\:/Users/Chandur/AndroidStudioProjects/Automa-Parking/app/src/main/res/layout/welcome_coffee.xml" value="0.2" />
+        <entry key="..\:/Users/Chandur/AndroidStudioProjects/Automa-Parking/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.18020833333333333" />
         <entry key="..\:/Users/Chandur/AndroidStudioProjects/AutomaParking/app/src/main/res/drawable-nodpi/delete_button_shape.xml" value="0.12256944444444444" />
         <entry key="..\:/Users/Chandur/AndroidStudioProjects/AutomaParking/app/src/main/res/drawable-nodpi/edit_button_shape.xml" value="0.12256944444444444" />
         <entry key="..\:/Users/Chandur/AndroidStudioProjects/AutomaParking/app/src/main/res/drawable-nodpi/ellipse_1_ek1_shape.xml" value="0.12256944444444444" />

@@ -54,7 +54,7 @@ public class contact_us_activity extends Activity {
 		Intent intent = new Intent(Intent.ACTION_SEND);
 		Intent chooser;
 		intent.setData(Uri.parse("mailto:"));
-		intent.putExtra(Intent.EXTRA_EMAIL, new String[]{"example@gmail.com"});
+		intent.putExtra(Intent.EXTRA_EMAIL, new String[]{"automaparking@gmail.com"});
 		intent.putExtra(Intent.EXTRA_SUBJECT, "Type your inquiry here");
 		intent.putExtra(Intent.EXTRA_TEXT, "Explain your problem here");
 		intent.setType("text/plain");
