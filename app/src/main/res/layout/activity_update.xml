@@ -1,23 +1,23 @@
 <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent" android:layout_height="wrap_content" tools:context=".update">
+    android:layout_width="match_parent" android:layout_height="wrap_content" tools:context=".update" >
 
-    <ScrollView android:id="@+id/ucheckout"
+    <ScrollView android:id="@+id/edit_checkout"
         android:layout_width="wrap_content"
         android:layout_height="match_parent" >
 
-        <RelativeLayout android:id="@+id/ucontent_container"
+        <RelativeLayout android:id="@+id/edit_content_container"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" >
 
             <RelativeLayout
-                android:id="@+id/upage_checkout_ek1"
+                android:id="@+id/edit_page_checkout_ek1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="0dp"
                 android:layout_marginTop="0dp">
 
                 <View
-                    android:id="@+id/u_bg__checkout_ek2"
+                    android:id="@+id/edit__bg__checkout_ek2"
                     android:layout_width="411dp"
                     android:layout_height="823dp"
                     android:layout_marginStart="0dp"
@@ -25,7 +25,7 @@
                     android:background="@drawable/_bg__checkout_ek2_shape" />
 
                 <View
-                    android:id="@+id/ucircle16"
+                    android:id="@+id/edit_circle16"
                     android:layout_width="199dp"
                     android:layout_height="199dp"
                     android:layout_marginStart="286dp"
@@ -33,7 +33,7 @@
                     android:background="@drawable/circle16_shape" />
 
                 <View
-                    android:id="@+id/ucircle15"
+                    android:id="@+id/edit_circle15"
                     android:layout_width="199dp"
                     android:layout_height="199dp"
                     android:layout_marginStart="264dp"
@@ -42,7 +42,7 @@
                     android:background="@drawable/circle15_shape" />
 
                 <ImageView
-                    android:id="@+id/ubattery8"
+                    android:id="@+id/edit_battery8"
                     android:layout_width="20dp"
                     android:layout_height="11dp"
                     android:layout_marginStart="375dp"
@@ -51,7 +51,7 @@
                     android:src="@drawable/battery8" />
 
                 <ImageView
-                    android:id="@+id/usignal8"
+                    android:id="@+id/edit_signal8"
                     android:layout_width="14dp"
                     android:layout_height="11dp"
                     android:layout_marginStart="350dp"
@@ -60,7 +60,7 @@
                     android:src="@drawable/signal8" />
 
                 <ImageView
-                    android:id="@+id/uwifi8"
+                    android:id="@+id/edit_wifi8"
                     android:layout_width="14dp"
                     android:layout_height="11dp"
                     android:layout_marginStart="329dp"
@@ -69,7 +69,7 @@
                     android:src="@drawable/wifi8" />
 
                 <TextView
-                    android:id="@+id/u_5_30_pm_ek1"
+                    android:id="@+id/edit__5_30_pm_ek1"
                     android:layout_width="72dp"
                     android:layout_height="24.5dp"
                     android:layout_marginLeft="24dp"
@@ -79,17 +79,17 @@
                     android:textSize="15sp" />
 
                 <TextView
-                    android:id="@+id/uhello__dissanayake_ek1"
+                    android:id="@+id/edit_hello__dissanayake_ek1"
                     android:layout_width="178dp"
                     android:layout_height="69dp"
                     android:layout_marginLeft="92dp"
                     android:layout_marginTop="71dp"
-                    android:text="@string/hello__dissanayake_ek1_string"
+                    android:text="Edit Order"
                     android:textColor="@color/circle18_color"
-                    android:textSize="16sp" />
+                    android:textSize="24sp" />
 
                 <ImageView
-                    android:id="@+id/uprofile_img2"
+                    android:id="@+id/edit_profile_img2"
                     android:layout_width="63dp"
                     android:layout_height="63dp"
                     android:layout_marginStart="319dp"
@@ -98,7 +98,7 @@
                     android:src="@drawable/profile_img2" />
 
                 <ImageView
-                    android:id="@+id/ucheckout_menu_icon"
+                    android:id="@+id/edit_checkout_menu_icon"
                     android:layout_width="23dp"
                     android:layout_height="23dp"
                     android:layout_marginStart="35dp"
@@ -107,7 +107,7 @@
                     android:src="@drawable/checkout_menu_icon" />
 
                 <View
-                    android:id="@+id/ucheckout_navigation_bar"
+                    android:id="@+id/edit_checkout_navigation_bar"
                     android:layout_width="411dp"
                     android:layout_height="70dp"
                     android:layout_marginStart="0dp"
@@ -115,7 +115,7 @@
                     android:background="@drawable/checkout_navigation_bar_shape" />
 
                 <ImageView
-                    android:id="@+id/ucheckout_home_logo"
+                    android:id="@+id/edit_checkout_home_logo"
                     android:layout_width="25dp"
                     android:layout_height="19.44dp"
                     android:layout_marginStart="66dp"
@@ -124,7 +124,7 @@
                     android:src="@drawable/checkout_home_logo" />
 
                 <ImageView
-                    android:id="@+id/ucheckout_history_logo"
+                    android:id="@+id/edit_checkout_history_logo"
                     android:layout_width="21.88dp"
                     android:layout_height="25dp"
                     android:layout_marginStart="155dp"
@@ -133,7 +133,7 @@
                     android:src="@drawable/checkout_history_logo" />
 
                 <ImageView
-                    android:id="@+id/ucheckout_checkout_logo"
+                    android:id="@+id/edit_checkout_checkout_logo"
                     android:layout_width="25dp"
                     android:layout_height="22.22dp"
                     android:layout_marginStart="238dp"
@@ -142,7 +142,7 @@
                     android:src="@drawable/checkout_checkout_logo" />
 
                 <ImageView
-                    android:id="@+id/ucheckout_profile_logo"
+                    android:id="@+id/edit_checkout_profile_logo"
                     android:layout_width="21.88dp"
                     android:layout_height="25dp"
                     android:layout_marginStart="326dp"
@@ -151,7 +151,7 @@
                     android:src="@drawable/checkout_profile_logo" />
 
                 <ImageView
-                    android:id="@+id/ucheckout_img"
+                    android:id="@+id/edit_checkout_img"
                     android:layout_width="169dp"
                     android:layout_height="145dp"
                     android:layout_marginStart="195dp"
@@ -160,7 +160,7 @@
                     android:src="@drawable/checkout_img" />
 
                 <ImageView
-                    android:id="@+id/ucheckout_cardno_textfeild"
+                    android:id="@+id/edit_checkout_cardno_textfeild"
                     android:layout_width="315dp"
                     android:layout_height="51dp"
                     android:layout_marginStart="51dp"
@@ -169,7 +169,7 @@
                     android:src="@drawable/checkout_cardno_textfeild" />
 
                 <ImageView
-                    android:id="@+id/ucheckout_name_textfeild"
+                    android:id="@+id/edit_checkout_name_textfeild"
                     android:layout_width="315dp"
                     android:layout_height="51dp"
                     android:layout_marginStart="51dp"
@@ -178,7 +178,7 @@
                     android:src="@drawable/checkout_name_textfeild" />
 
                 <ImageView
-                    android:id="@+id/ucheckout_expiry_textfeild"
+                    android:id="@+id/edit_checkout_expiry_textfeild"
                     android:layout_width="144dp"
                     android:layout_height="51dp"
                     android:layout_marginStart="51dp"
@@ -187,7 +187,7 @@
                     android:src="@drawable/checkout_expiry_textfeild" />
 
                 <ImageView
-                    android:id="@+id/ucheckout_cvv_textfeild"
+                    android:id="@+id/edit_checkout_cvv_textfeild"
                     android:layout_width="130dp"
                     android:layout_height="51dp"
                     android:layout_marginStart="228dp"
@@ -196,7 +196,7 @@
                     android:src="@drawable/checkout_cvv_textfeild" />
 
                 <TextView
-                    android:id="@+id/ucard_number"
+                    android:id="@+id/edit_card_number"
                     android:layout_width="284dp"
                     android:layout_height="31dp"
                     android:layout_marginLeft="68dp"
@@ -206,7 +206,7 @@
                     android:textSize="15sp" />
 
                 <TextView
-                    android:id="@+id/ufull_name"
+                    android:id="@+id/edit_full_name"
                     android:layout_width="277dp"
                     android:layout_height="32dp"
                     android:layout_marginLeft="68dp"
@@ -216,7 +216,7 @@
                     android:textSize="15sp" />
 
                 <TextView
-                    android:id="@+id/uexpiry_date"
+                    android:id="@+id/edit_expiry_date"
                     android:layout_width="123dp"
                     android:layout_height="33.5dp"
                     android:layout_marginLeft="68dp"
@@ -226,7 +226,7 @@
                     android:textSize="15sp" />
 
                 <TextView
-                    android:id="@+id/ucvv"
+                    android:id="@+id/edit_cvv"
                     android:layout_width="132dp"
                     android:layout_height="30dp"
                     android:layout_marginLeft="243dp"
@@ -236,7 +236,7 @@
                     android:textSize="15sp" />
 
                 <ImageView
-                    android:id="@+id/umastercard_img"
+                    android:id="@+id/edit_mastercard_img"
                     android:layout_width="64dp"
                     android:layout_height="37dp"
                     android:layout_marginStart="70dp"
@@ -245,7 +245,7 @@
                     android:src="@drawable/mastercard_img" />
 
                 <View
-                    android:id="@+id/ubill_background"
+                    android:id="@+id/edit_bill_background"
                     android:layout_width="306dp"
                     android:layout_height="171dp"
                     android:layout_marginStart="53dp"
@@ -253,7 +253,7 @@
                     android:background="@drawable/bill_background_shape" />
 
                 <TextView
-                    android:id="@+id/uquantity_item_price"
+                    android:id="@+id/edit_quantity_item_price"
                     android:layout_width="291dp"
                     android:layout_height="30dp"
                     android:layout_marginLeft="57dp"
@@ -263,7 +263,7 @@
                     android:textSize="12sp" />
 
                 <TextView
-                    android:id="@+id/u_2_latte_rs___1000_1_expresso_rs___1500"
+                    android:id="@+id/edit__2_latte_rs___1000_1_expresso_rs___1500"
                     android:layout_width="301dp"
                     android:layout_height="95dp"
                     android:layout_marginLeft="59dp"
@@ -273,7 +273,7 @@
                     android:textSize="12sp" />
 
                 <ImageView
-                    android:id="@+id/ubarcode"
+                    android:id="@+id/edit_barcode"
                     android:layout_width="84dp"
                     android:layout_height="19dp"
                     android:layout_marginStart="73dp"
@@ -282,7 +282,7 @@
                     android:src="@drawable/barcode" />
 
                 <View
-                    android:id="@+id/utotal_amount"
+                    android:id="@+id/edit_total_amount"
                     android:layout_width="94dp"
                     android:layout_height="28dp"
                     android:layout_marginStart="257dp"
@@ -290,7 +290,7 @@
                     android:background="@drawable/total_amount_shape" />
 
                 <TextView
-                    android:id="@+id/urs___25000"
+                    android:id="@+id/edit_rs___25000"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="295dp"
@@ -301,7 +301,7 @@
                     android:textStyle="bold" />
 
                 <View
-                    android:id="@+id/ucancle_btn"
+                    android:id="@+id/edit_cancel_order_btn"
                     android:layout_width="132dp"
                     android:layout_height="44dp"
                     android:layout_marginStart="44dp"
@@ -309,7 +309,7 @@
                     android:background="@drawable/cancle_btn_shape" />
 
                 <TextView
-                    android:id="@+id/ucancel_order"
+                    android:id="@+id/edit_cancel_order"
                     android:layout_width="113dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal|center"
@@ -322,7 +322,7 @@
                     android:textStyle="bold" />
 
                 <ImageView
-                    android:id="@+id/upaypal_img"
+                    android:id="@+id/edit_paypal_img"
                     android:layout_width="103dp"
                     android:layout_height="35dp"
                     android:layout_marginStart="252dp"
@@ -331,7 +331,7 @@
                     android:src="@drawable/paypal_img" />
 
                 <ImageView
-                    android:id="@+id/uvisa_img"
+                    android:id="@+id/edit_visa_img"
                     android:layout_width="71dp"
                     android:layout_height="35dp"
                     android:layout_marginStart="157dp"
@@ -340,7 +340,7 @@
                     android:src="@drawable/visa_img" />
 
                 <EditText
-                    android:id="@+id/utype_name"
+                    android:id="@+id/edit_type_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
@@ -351,7 +351,7 @@
                     android:inputType="textPersonName" />
 
                 <EditText
-                    android:id="@+id/utype_cardno"
+                    android:id="@+id/edit_type_cardno"
                     android:layout_width="180dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
@@ -362,7 +362,7 @@
                     android:inputType="textPersonName" />
 
                 <EditText
-                    android:id="@+id/utype_quantity"
+                    android:id="@+id/edit_type_quantity"
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
@@ -373,7 +373,7 @@
                     android:inputType="textPersonName" />
 
                 <EditText
-                    android:id="@+id/utype_price"
+                    android:id="@+id/edit_type_price"
                     android:layout_width="70dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"

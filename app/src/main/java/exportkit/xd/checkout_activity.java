@@ -8,48 +8,21 @@ import android.os.Bundle;
 
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 public class checkout_activity extends Activity {
 
 	// Create button object
-	private View _bg__checkout_ek2;
-	private View circle16;
-	private View circle15;
-	private ImageView battery8;
-	private ImageView signal8;
-	private ImageView wifi8;
-	private TextView _5_30_pm_ek1;
-	private TextView hello__dissanayake_ek1;
+	private EditText title, desc;
+	private View add;
 	private ImageView profile_img2;
-	private ImageView checkout_menu_icon;
-	private View checkout_navigation_bar;
 	private ImageView checkout_home_logo;
 	private ImageView checkout_history_logo;
-	private ImageView checkout_checkout_logo;
 	private ImageView checkout_profile_logo;
-	private ImageView checkout_img;
-	private ImageView checkout_cardno_textfeild;
-	private ImageView checkout_name_textfeild;
-	private ImageView checkout_expiry_textfeild;
-	private ImageView checkout_cvv_textfeild;
-	private TextView card_number;
-	private TextView full_name;
-	private TextView expiry_date;
-	private TextView cvv;
-	private ImageView mastercard_img;
-	private View bill_background;
-	private TextView quantity_item_price;
-	private TextView _2_latte_rs___1000_1_expresso_rs___1500;
-	private ImageView barcode;
 	private View total_amount;
-	private TextView rs___25000;
 	private View cancle_btn;
-	private TextView cancel_order;
-	private TextView total__;
-	private ImageView paypal_img;
-	private ImageView visa_img;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -60,7 +33,11 @@ public class checkout_activity extends Activity {
 		setContentView(R.layout.checkout);
 
 		// Link java button with xml button
+		title = findViewById(R.id.type_name);
+		desc = findViewById(R.id.type_cardno);
+		add = findViewById(R.id.total_amount);
 		total_amount = findViewById(R.id.total_amount);
+
 
 		// Set listener to the button
 		total_amount.setOnClickListener(new View.OnClickListener() {
