@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class AddOrder extends AppCompatActivity {
 
@@ -43,6 +44,9 @@ public class AddOrder extends AppCompatActivity {
                 dbHandler.addToDo(toDo);
 
                 // Redirect
+                Toast.makeText(getApplicationContext(),
+                        "Successful",
+                        Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, Records.class));
             }
         });
