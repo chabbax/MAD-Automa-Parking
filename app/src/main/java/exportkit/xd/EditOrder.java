@@ -1,5 +1,7 @@
 package exportkit.xd;
 
+import static android.widget.Toast.makeText;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
@@ -8,6 +10,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class EditOrder extends AppCompatActivity {
 
@@ -51,6 +54,9 @@ public class EditOrder extends AppCompatActivity {
                 System.out.println(state);
 
                 // Redirected
+                Toast.makeText(getApplicationContext(),
+                        "Updated",
+                        Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, Records.class));
             }
         });
